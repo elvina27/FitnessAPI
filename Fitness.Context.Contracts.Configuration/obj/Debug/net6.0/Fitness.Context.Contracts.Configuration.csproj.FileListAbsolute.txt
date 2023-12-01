@@ -1,0 +1,17 @@
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\Fitness.Context.Contracts.Configuration.csproj.AssemblyReference.cache
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\Fitness.Context.Contracts.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\Fitness.Context.Contracts.Configuration.AssemblyInfoInputs.cache
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\Fitness.Context.Contracts.Configuration.AssemblyInfo.cs
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\Fitness.Context.Contracts.Configuration.csproj.CoreCompileInputs.cache
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\bin\Debug\net6.0\Fitness.Context.Contracts.Configuration.deps.json
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\bin\Debug\net6.0\Fitness.Context.Contracts.Configuration.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\bin\Debug\net6.0\Fitness.Context.Contracts.Configuration.pdb
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\bin\Debug\net6.0\Fitness.Common.Entity.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\bin\Debug\net6.0\Fitness.Context.Contracts.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\bin\Debug\net6.0\Fitness.Context.Contracts.pdb
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\bin\Debug\net6.0\Fitness.Common.Entity.pdb
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\Fitness.Context.Contracts.Configuration.csproj.CopyComplete
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\Fitness.Context.Contracts.Configuration.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\refint\Fitness.Context.Contracts.Configuration.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\Fitness.Context.Contracts.Configuration.pdb
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts.Configuration\obj\Debug\net6.0\ref\Fitness.Context.Contracts.Configuration.dll

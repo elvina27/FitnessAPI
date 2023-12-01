@@ -1,0 +1,12 @@
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\bin\Debug\net6.0\Fitness.Common.Entity.deps.json
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\bin\Debug\net6.0\Fitness.Common.Entity.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\bin\Debug\net6.0\Fitness.Common.Entity.pdb
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\obj\Debug\net6.0\Fitness.Common.Entity.csproj.AssemblyReference.cache
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\obj\Debug\net6.0\Fitness.Common.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\obj\Debug\net6.0\Fitness.Common.Entity.AssemblyInfoInputs.cache
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\obj\Debug\net6.0\Fitness.Common.Entity.AssemblyInfo.cs
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\obj\Debug\net6.0\Fitness.Common.Entity.csproj.CoreCompileInputs.cache
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\obj\Debug\net6.0\Fitness.Common.Entity.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\obj\Debug\net6.0\refint\Fitness.Common.Entity.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\obj\Debug\net6.0\Fitness.Common.Entity.pdb
+C:\Эльвина\4 курс\Фитнес\Fitness.Common.Entity\obj\Debug\net6.0\ref\Fitness.Common.Entity.dll

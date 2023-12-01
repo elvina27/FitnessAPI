@@ -1,0 +1,15 @@
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\bin\Debug\net6.0\Fitness.Context.Contracts.deps.json
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\bin\Debug\net6.0\Fitness.Context.Contracts.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\bin\Debug\net6.0\Fitness.Context.Contracts.pdb
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\bin\Debug\net6.0\Fitness.Common.Entity.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\bin\Debug\net6.0\Fitness.Common.Entity.pdb
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\Fitness.Context.Contracts.csproj.AssemblyReference.cache
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\Fitness.Context.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\Fitness.Context.Contracts.AssemblyInfoInputs.cache
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\Fitness.Context.Contracts.AssemblyInfo.cs
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\Fitness.Context.Contracts.csproj.CoreCompileInputs.cache
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\Fitness.Context.Contracts.csproj.CopyComplete
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\Fitness.Context.Contracts.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\refint\Fitness.Context.Contracts.dll
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\Fitness.Context.Contracts.pdb
+C:\Эльвина\4 курс\Фитнес\Fitness.Context.Contracts\obj\Debug\net6.0\ref\Fitness.Context.Contracts.dll

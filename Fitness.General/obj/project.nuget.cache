@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "il+hSbE8I31Xi2FDFqefpUrgUQ2x2rzjnXdcy7duZLkUr2H38eE3yvezdA9nQWo1NFjqz1b5Dyy6aCS9kguiTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pavel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

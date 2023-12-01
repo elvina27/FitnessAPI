@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fitness.Common.Entity\Fitness.Common.Entity.csproj" />
+    <ProjectReference Include="..\Fitness.General\Fitness.General.csproj" />
+    <ProjectReference Include="..\Fitness.Repositories.Contracts\Fitness.Repositories.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
