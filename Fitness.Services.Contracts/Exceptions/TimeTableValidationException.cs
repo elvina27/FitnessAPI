@@ -1,6 +1,6 @@
-﻿using TicketSelling.General;
+﻿using Fitness.General;
 
-namespace TicketSelling.Services.Contracts.Exceptions
+namespace Fitness.Services.Contracts.Exceptions
 {
     /// <summary>
     /// Ошибки валидации

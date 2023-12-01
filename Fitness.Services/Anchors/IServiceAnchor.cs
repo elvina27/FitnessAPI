@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Fitness.Services.Anchors
+﻿namespace Fitness.Services.Anchors
 {
     public interface IServiceAnchor
     {

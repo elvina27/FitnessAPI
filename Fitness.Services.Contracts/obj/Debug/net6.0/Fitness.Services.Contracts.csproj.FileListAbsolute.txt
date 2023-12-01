@@ -1,0 +1,15 @@
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\bin\Debug\net6.0\Fitness.Services.Contracts.deps.json
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\bin\Debug\net6.0\Fitness.Services.Contracts.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\bin\Debug\net6.0\Fitness.Services.Contracts.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\bin\Debug\net6.0\Fitness.General.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\bin\Debug\net6.0\Fitness.General.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\Fitness.Services.Contracts.csproj.AssemblyReference.cache
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\Fitness.Services.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\Fitness.Services.Contracts.AssemblyInfoInputs.cache
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\Fitness.Services.Contracts.AssemblyInfo.cs
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\Fitness.Services.Contracts.csproj.CoreCompileInputs.cache
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\Fitness.Services.Contracts.csproj.CopyComplete
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\Fitness.Services.Contracts.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\refint\Fitness.Services.Contracts.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\Fitness.Services.Contracts.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services.Contracts\obj\Debug\net6.0\ref\Fitness.Services.Contracts.dll

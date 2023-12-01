@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Fitness.Common.Entity.EntityInterface
+﻿namespace Fitness.Common.Entity.EntityInterface
 {
     /// <summary>
     /// Аудит обновления сущности

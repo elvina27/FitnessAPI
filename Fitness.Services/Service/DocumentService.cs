@@ -1,20 +1,14 @@
 ﻿using AutoMapper;
 using Fitness.Context.Contracts.Models;
 using Fitness.Repositories.Contracts.ReadRepositoriesContracts;
+using Fitness.Services.Anchors;
 using Fitness.Services.Contracts.Exceptions;
 using Fitness.Services.Contracts.Models;
 using Fitness.Services.Contracts.ServicesContracts;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Fitness.Services.Implementations
 {
-    public class DocumentService : IDocumentService
+    public class DocumentService : IDocumentService, IServiceAnchor
     {
         private readonly IDocumentReadRepository documentReadRepository;
         private readonly IMapper mapper;

@@ -312,6 +312,19 @@
           "bin/placeholder/Fitness.Context.Contracts.dll": {}
         }
       },
+      "Fitness.General/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fitness.General.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fitness.General.dll": {}
+        }
+      },
       "Fitness.Repositories.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -328,6 +341,9 @@
       "Fitness.Services.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Fitness.General": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Fitness.Services.Contracts.dll": {}
         },
@@ -769,6 +785,11 @@
       "path": "../Fitness.Context.Contracts/Fitness.Context.Contracts.csproj",
       "msbuildProject": "../Fitness.Context.Contracts/Fitness.Context.Contracts.csproj"
     },
+    "Fitness.General/1.0.0": {
+      "type": "project",
+      "path": "../Fitness.General/Fitness.General.csproj",
+      "msbuildProject": "../Fitness.General/Fitness.General.csproj"
+    },
     "Fitness.Repositories.Contracts/1.0.0": {
       "type": "project",
       "path": "../Fitness.Repositories.Contracts/Fitness.Repositories.Contracts.csproj",
@@ -785,6 +806,7 @@
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.EnumMapping >= 3.1.0",
       "Fitness.Context.Contracts >= 1.0.0",
+      "Fitness.General >= 1.0.0",
       "Fitness.Repositories.Contracts >= 1.0.0",
       "Fitness.Services.Contracts >= 1.0.0"
     ]
@@ -818,6 +840,9 @@
           "projectReferences": {
             "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj": {
               "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj"
+            },
+            "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj": {
+              "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj"
             },
             "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj": {
               "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj"

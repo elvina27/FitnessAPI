@@ -10,3 +10,15 @@ C:\Эльвина\4 курс\Фитнес\Fitness.General\obj\Debug\net6.0\Fitne
 C:\Эльвина\4 курс\Фитнес\Fitness.General\obj\Debug\net6.0\refint\Fitness.General.dll
 C:\Эльвина\4 курс\Фитнес\Fitness.General\obj\Debug\net6.0\Fitness.General.pdb
 C:\Эльвина\4 курс\Фитнес\Fitness.General\obj\Debug\net6.0\ref\Fitness.General.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\bin\Debug\net6.0\Fitness.General.deps.json
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\bin\Debug\net6.0\Fitness.General.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\bin\Debug\net6.0\Fitness.General.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\obj\Debug\net6.0\Fitness.General.csproj.AssemblyReference.cache
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\obj\Debug\net6.0\Fitness.General.GeneratedMSBuildEditorConfig.editorconfig
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\obj\Debug\net6.0\Fitness.General.AssemblyInfoInputs.cache
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\obj\Debug\net6.0\Fitness.General.AssemblyInfo.cs
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\obj\Debug\net6.0\Fitness.General.csproj.CoreCompileInputs.cache
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\obj\Debug\net6.0\Fitness.General.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\obj\Debug\net6.0\refint\Fitness.General.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\obj\Debug\net6.0\Fitness.General.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.General\obj\Debug\net6.0\ref\Fitness.General.dll

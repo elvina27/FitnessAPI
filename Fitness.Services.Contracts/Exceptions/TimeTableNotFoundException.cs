@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Fitness.Services.Contracts.Exceptions
+﻿namespace Fitness.Services.Contracts.Exceptions
 {
     public class TimeTableNotFoundException : TimeTableException
     {
