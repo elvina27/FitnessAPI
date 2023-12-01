@@ -1,19 +1,14 @@
 ﻿using AutoMapper;
 using Fitness.Context.Contracts.Models;
 using Fitness.Repositories.Contracts.ReadRepositoriesContracts;
+using Fitness.Services.Anchors;
 using Fitness.Services.Contracts.Exceptions;
 using Fitness.Services.Contracts.Models;
-using Fitness.Services.Contracts.ReadServicesContracts;
 using Fitness.Services.Contracts.ServicesContracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Fitness.Services.Implementations
 {
-    public class GymService : IGymService
+    public class GymService : IGymService, IServiceAnchor
     {
         private readonly IGymReadRepository gymReadRepositiry;
         private readonly IMapper mapper;

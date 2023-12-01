@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fSDqg4bGO+hNXltbMjgT8bp9K+dKQzmv1sGy1IYaFMhT+PNv29kyO7ngZpGSvm381j6bm03ViheUdlLJwUTjlA==",
+  "dgSpecHash": "Ie0+RvloxKTmrmqBlEAxfXYZrI8H3/4sxk8KKL/GRikVacppLbiLxFC7Upu6NmyeZsMAKNZdJbn3/0RSbIgL7A==",
   "success": true,
   "projectFilePath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pavel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

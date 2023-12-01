@@ -1,25 +1,28 @@
+using Fitness.API.Extensions;
 using Fitness.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.RegistrationControllers();
 
-builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.RegistrationSwagger();
+builder.Services.RegistrationSRC();
 
-var app = builder.Build();
+
 
 var conString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContextFactory<FitnessContext>(options => options.UseSqlServer(conString), ServiceLifetime.Scoped);
 
+var app = builder.Build();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.CustomizeSwaggerUI();
 }
 
 app.UseHttpsRedirection();

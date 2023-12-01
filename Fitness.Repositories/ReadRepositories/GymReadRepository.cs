@@ -1,15 +1,8 @@
-﻿using Fitness.Context.Contracts;
-using Fitness.Common.Entity.Repositories;
+﻿using Fitness.Common.Entity.Repositories;
 using Fitness.Common.Entity.InterfaceDB;
 using Fitness.Context.Contracts.Models;
 using Fitness.Repositories.Anchors;
 using Fitness.Repositories.Contracts.ReadRepositoriesContracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Threading;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fitness.Repositories.ReadRepositories

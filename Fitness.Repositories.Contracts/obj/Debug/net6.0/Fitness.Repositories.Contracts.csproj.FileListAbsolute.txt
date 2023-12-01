@@ -1,0 +1,17 @@
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\bin\Debug\net6.0\Fitness.Repositories.Contracts.deps.json
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\bin\Debug\net6.0\Fitness.Repositories.Contracts.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\bin\Debug\net6.0\Fitness.Repositories.Contracts.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\bin\Debug\net6.0\Fitness.Common.Entity.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\bin\Debug\net6.0\Fitness.Context.Contracts.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\bin\Debug\net6.0\Fitness.Context.Contracts.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\bin\Debug\net6.0\Fitness.Common.Entity.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\Fitness.Repositories.Contracts.csproj.AssemblyReference.cache
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\Fitness.Repositories.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\Fitness.Repositories.Contracts.AssemblyInfoInputs.cache
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\Fitness.Repositories.Contracts.AssemblyInfo.cs
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\Fitness.Repositories.Contracts.csproj.CoreCompileInputs.cache
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\Fitness.Repositories.Contracts.csproj.CopyComplete
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\Fitness.Repositories.Contracts.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\refint\Fitness.Repositories.Contracts.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\Fitness.Repositories.Contracts.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Repositories.Contracts\obj\Debug\net6.0\ref\Fitness.Repositories.Contracts.dll

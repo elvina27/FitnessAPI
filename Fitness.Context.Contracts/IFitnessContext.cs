@@ -1,7 +1,4 @@
-﻿using System.Net.Sockets;
-using System;
-using Fitness.Context.Contracts.Models;
-using System.Collections.Generic;
+﻿using Fitness.Context.Contracts.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Fitness.Context.Contracts
