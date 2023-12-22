@@ -1,7 +1,7 @@
 ﻿namespace Fitness.API.Models.CreateRequest
 {
     /// <summary>
-    /// Зал
+    /// Модель запроса создания зала
     /// </summary>
     public class CreateGymRequest
     {

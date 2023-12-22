@@ -1,7 +1,11 @@
 ﻿using AutoMapper;
 using Fitness.API.Exceptions;
+using Fitness.API.Models.CreateRequest;
+using Fitness.API.Models.Request;
 using Fitness.API.Models.Response;
+using Fitness.Services.Contracts.Models;
 using Fitness.Services.Contracts.ServicesContracts;
+using Fitness.Services.Implementations;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
@@ -45,6 +49,50 @@ namespace Fitness.Api.Controllers
         {
             var item = await coachService.GetByIdAsync(id, cancellationToken);
             return Ok(mapper.Map<CoachResponse>(item));
+        }
+
+        /// <summary>
+        /// Добавить тренера
+        /// </summary>
+        [HttpPost]
+        [ProducesResponseType(typeof(CoachResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiValidationExceptionDetail), StatusCodes.Status409Conflict)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> Add([FromBody] CreateCoachRequest model, CancellationToken cancellationToken)
+        {
+            var coachModel = mapper.Map<CoachModel>(model);
+            var result = await coachService.AddAsync(coachModel, cancellationToken);
+            return Ok(mapper.Map<CoachResponse>(result));
+        }
+
+        /// <summary>
+        /// Изменить тренера
+        /// </summary>
+        [HttpPut]
+        [ProducesResponseType(typeof(CoachResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiValidationExceptionDetail), StatusCodes.Status409Conflict)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> Edit(CoachRequest request, CancellationToken cancellationToken)
+        {
+            var model = mapper.Map<CoachModel>(request);
+            var result = await coachService.EditAsync(model, cancellationToken);
+            return Ok(mapper.Map<CoachResponse>(result));
+        }
+
+        /// <summary>
+        /// Удалить тренера по Id
+        /// </summary>
+        [HttpDelete("{id:guid}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status417ExpectationFailed)]
+        public async Task<IActionResult> Delete([Required] Guid id, CancellationToken cancellationToken)
+        {
+            await coachService.DeleteAsync(id, cancellationToken);
+            return Ok();
         }
     }
 }

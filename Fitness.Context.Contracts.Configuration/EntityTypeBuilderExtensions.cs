@@ -20,12 +20,5 @@ namespace Fitness.Context.Contracts.Configuration
             builder.Property(x => x.UpdatedAt).IsRequired();
             builder.Property(x => x.UpdatedBy).IsRequired().HasMaxLength(200);
         }
-
-        /// <summary>
-        /// Задаёт конфигурацию ключа для идентификатора <see cref="IEntityWithId.Id"/>
-        /// </summary>
-        public static void HasIdAsKey<T>(this EntityTypeBuilder<T> builder)
-            where T : class, IEntityWithId
-            => builder.HasKey(x => x.Id);
     }
 }

@@ -12,8 +12,10 @@
           "AutoMapper.Extensions.EnumMapping": "3.1.0",
           "Fitness.Context.Contracts": "1.0.0",
           "Fitness.General": "1.0.0",
+          "Fitness.Repositories": "1.0.0",
           "Fitness.Repositories.Contracts": "1.0.0",
-          "Fitness.Services.Contracts": "1.0.0"
+          "Fitness.Services.Contracts": "1.0.0",
+          "FluentValidation": "11.8.1"
         },
         "runtime": {
           "Fitness.Services.dll": {}
@@ -38,6 +40,14 @@
           "lib/netstandard2.1/AutoMapper.Extensions.EnumMapping.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.8.1": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.8.1.0"
           }
         }
       },
@@ -196,6 +206,16 @@
           "Fitness.General.dll": {}
         }
       },
+      "Fitness.Repositories/1.0.0": {
+        "dependencies": {
+          "Fitness.Common.Entity": "1.0.0",
+          "Fitness.General": "1.0.0",
+          "Fitness.Repositories.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Fitness.Repositories.dll": {}
+        }
+      },
       "Fitness.Repositories.Contracts/1.0.0": {
         "dependencies": {
           "Fitness.Context.Contracts": "1.0.0"
@@ -233,6 +253,13 @@
       "sha512": "sha512-8cH94J1ExLkMf1L9GOij2t/8KeNnjRd8Rz4q0geFTZxrilLe61/0r4WHb2KGQKOF/wGsFJNeB97sD6qglpGhVQ==",
       "path": "automapper.extensions.enummapping/3.1.0",
       "hashPath": "automapper.extensions.enummapping.3.1.0.nupkg.sha512"
+    },
+    "FluentValidation/11.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N72rnlE99XYB7EGA1u9y7m7kNTTynqOPBhZqDE8zr1Y0aSR4t5si94LRA7UVdAV09GaXWCErW+EiFhfbg3DSbg==",
+      "path": "fluentvalidation/11.8.1",
+      "hashPath": "fluentvalidation.11.8.1.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -350,6 +377,11 @@
       "sha512": ""
     },
     "Fitness.General/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fitness.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

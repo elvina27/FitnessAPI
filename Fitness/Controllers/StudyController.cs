@@ -1,7 +1,11 @@
 ﻿using AutoMapper;
 using Fitness.API.Exceptions;
+using Fitness.API.Models.CreateRequest;
+using Fitness.API.Models.Request;
 using Fitness.API.Models.Response;
+using Fitness.Services.Contracts.Models;
 using Fitness.Services.Contracts.ServicesContracts;
+using Fitness.Services.Implementations;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
@@ -45,6 +49,50 @@ namespace Fitness.Api.Controllers
         {
             var item = await studyService.GetByIdAsync(id, cancellationToken);
             return Ok(mapper.Map<StudyResponse>(item));
+        }
+
+        /// <summary>
+        /// Добавить занятие
+        /// </summary>
+        [HttpPost]
+        [ProducesResponseType(typeof(StudyResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiValidationExceptionDetail), StatusCodes.Status409Conflict)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> Add([FromBody] CreateStudyRequest model, CancellationToken cancellationToken)
+        {
+            var studyModel = mapper.Map<StudyModel>(model);
+            var result = await studyService.AddAsync(studyModel, cancellationToken);
+            return Ok(mapper.Map<StudyResponse>(result));
+        }
+
+        /// <summary>
+        /// Изменить занятие
+        /// </summary>
+        [HttpPut]
+        [ProducesResponseType(typeof(StudyResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiValidationExceptionDetail), StatusCodes.Status409Conflict)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> Edit(StudyRequest request, CancellationToken cancellationToken)
+        {
+            var model = mapper.Map<StudyModel>(request);
+            var result = await studyService.EditAsync(model, cancellationToken);
+            return Ok(mapper.Map<StudyResponse>(result));
+        }
+
+        /// <summary>
+        /// Удалить занятие по Id
+        /// </summary>
+        [HttpDelete("{id:guid}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(ApiExceptionDetail), StatusCodes.Status417ExpectationFailed)]
+        public async Task<IActionResult> Delete([Required] Guid id, CancellationToken cancellationToken)
+        {
+            await studyService.DeleteAsync(id, cancellationToken);
+            return Ok();
         }
     }
 }

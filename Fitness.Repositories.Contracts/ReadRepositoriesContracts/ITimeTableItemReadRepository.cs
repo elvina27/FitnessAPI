@@ -15,7 +15,12 @@ namespace Fitness.Repositories.Contracts.ReadRepositoriesContracts
         /// <summary>
         /// Получить <see cref="TimeTableItem"/> по идентификатору
         /// </summary>
-        Task<TimeTableItem?> GetByIdAsync(Guid id, CancellationToken cancellationToken);    
+        Task<TimeTableItem?> GetByIdAsync(Guid id, CancellationToken cancellationToken);
+
+        /// <summary>
+        /// Проверить есть ли <see cref="TimeTableItem"/> в коллеции
+        /// </summary>
+        Task<bool> IsNotNullAsync(Guid id, CancellationToken cancellationToken);
     }
 }
 

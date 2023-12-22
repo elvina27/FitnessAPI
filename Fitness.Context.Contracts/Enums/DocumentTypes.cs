@@ -1,5 +1,8 @@
 ﻿namespace Fitness.Context.Contracts.Enums
 {
+    /// <summary>
+    /// Документы
+    /// </summary>
     public enum DocumentTypes
     {
         /// <summary>

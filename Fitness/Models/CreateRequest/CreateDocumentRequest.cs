@@ -3,7 +3,7 @@
 namespace Fitnes.API.Models.CreateRequest
 {
     /// <summary>
-    /// Документ
+    /// Модель запроса создания документа
     /// </summary>
     public class CreateDocumentRequest
     {

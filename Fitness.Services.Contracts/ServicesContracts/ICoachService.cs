@@ -13,5 +13,20 @@ namespace Fitness.Services.Contracts.ServicesContracts
         /// Получить <see cref="CoachModel"/> по идентификатору
         /// </summary>
         Task<CoachModel?> GetByIdAsync(Guid id, CancellationToken cancellationToken);
+
+        /// <summary>
+        /// Добавляет новый кинотетар
+        /// </summary>
+        Task<CoachModel> AddAsync(CoachModel model, CancellationToken cancellationToken);
+
+        /// <summary>
+        /// Редактирует существующий кинотеатр
+        /// </summary>
+        Task<CoachModel> EditAsync(CoachModel source, CancellationToken cancellationToken);
+
+        /// <summary>
+        /// Удаляет существующий кинотетар
+        /// </summary>
+        Task DeleteAsync(Guid id, CancellationToken cancellationToken);
     }
 }

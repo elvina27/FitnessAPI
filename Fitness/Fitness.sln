@@ -19,9 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Repositories", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Repositories.Contracts", "..\Fitness.Repositories.Contracts\Fitness.Repositories.Contracts.csproj", "{54990BA8-06DE-4F24-8428-DAE25F762236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness.Services.Contracts", "..\Fitness.Services.Contracts\Fitness.Services.Contracts.csproj", "{F7EBBBD4-CE8C-4D89-AEE6-4B6A719331F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Services.Contracts", "..\Fitness.Services.Contracts\Fitness.Services.Contracts.csproj", "{F7EBBBD4-CE8C-4D89-AEE6-4B6A719331F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness.Services", "..\Fitness.Services\Fitness.Services.csproj", "{B393A1D1-F03C-4765-A8E1-FA87482F3E0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Services", "..\Fitness.Services\Fitness.Services.csproj", "{B393A1D1-F03C-4765-A8E1-FA87482F3E0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

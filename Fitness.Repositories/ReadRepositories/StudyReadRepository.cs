@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Fitness.Repositories.ReadRepositories
 {
     /// <summary>
-    /// Реализация <see cref="IStudyWriteRepository"/>
+    /// Реализация <see cref="IStudyReadRepository"/>
     /// </summary>
     public class StudyReadRepository : IStudyReadRepository, IRepositoryAnchor
     {
@@ -38,5 +38,7 @@ namespace Fitness.Repositories.ReadRepositories
                 .ByIds(ids)
                 .OrderBy(x => x.Title)
                 .ToDictionaryAsync(x => x.Id, cancellationToken);
+        Task<bool> IStudyReadRepository.IsNotNullAsync(Guid id, CancellationToken cancellationToken)
+            => reader.Read<Study>().AnyAsync(x => x.Id == id && !x.DeletedAt.HasValue, cancellationToken);
     }
 }

@@ -1,7 +1,7 @@
 ﻿namespace Fitness.API.Models.CreateRequest
 {
     /// <summary>
-    /// Тренер
+    /// Модель запроса создания тренера
     /// </summary>
     public class CreateCoachRequest
     {

@@ -178,3 +178,4 @@ C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness\obj\Debug\net6.0\
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness\obj\Debug\net6.0\ref\Fitness.Api.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness\bin\Debug\net6.0\Fitness.Api.xml
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness\obj\Debug\net6.0\Fitness.Api.xml
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness\bin\Debug\net6.0\FluentValidation.dll

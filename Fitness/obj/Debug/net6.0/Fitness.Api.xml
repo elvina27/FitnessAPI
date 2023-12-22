@@ -4,6 +4,11 @@
         <name>Fitness.Api</name>
     </assembly>
     <members>
+        <member name="T:Fitness.Api.AutoMappers.APIMappers">
+            <summary>
+            Маппер
+            </summary>
+        </member>
         <member name="T:Fitness.Api.Controllers.ClubController">
             <summary>
             CRUD контроллер по работе с клубами
@@ -17,6 +22,21 @@
         <member name="M:Fitness.Api.Controllers.ClubController.GetById(System.Guid,System.Threading.CancellationToken)">
             <summary>
             Получить клуб по Id
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.ClubController.Add(Fitness.API.Models.CreateRequest.CreateClubRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить клуб
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.ClubController.Edit(Fitness.API.Models.Request.ClubRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить клуб
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.ClubController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить клуб по Id
             </summary>
         </member>
         <member name="T:Fitness.Api.Controllers.CoachController">
@@ -34,6 +54,21 @@
             Получить тренера по Id
             </summary>
         </member>
+        <member name="M:Fitness.Api.Controllers.CoachController.Add(Fitness.API.Models.CreateRequest.CreateCoachRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить тренера
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.CoachController.Edit(Fitness.API.Models.Request.CoachRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить тренера
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.CoachController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить тренера по Id
+            </summary>
+        </member>
         <member name="T:Fitness.Api.Controllers.DocumentController">
             <summary>
             CRUD контроллер по работе с документами
@@ -47,6 +82,21 @@
         <member name="M:Fitness.Api.Controllers.DocumentController.GetById(System.Guid,System.Threading.CancellationToken)">
             <summary>
             Получить документы по Id
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.DocumentController.Add(Fitnes.API.Models.CreateRequest.CreateDocumentRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить документы
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.DocumentController.Edit(Fitness.API.Models.Request.DocumentRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить документы
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.DocumentController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить документы по Id
             </summary>
         </member>
         <member name="T:Fitness.Api.Controllers.GymController">
@@ -64,6 +114,21 @@
             Получить зал по Id
             </summary>
         </member>
+        <member name="M:Fitness.Api.Controllers.GymController.Add(Fitness.API.Models.CreateRequest.CreateGymRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить зал
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.GymController.Edit(Fitness.API.Models.Request.GymRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить зал
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.GymController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить зал по Id
+            </summary>
+        </member>
         <member name="T:Fitness.Api.Controllers.StudyController">
             <summary>
             CRUD контроллер по работе с занятиями
@@ -79,6 +144,21 @@
             Получить занятие по Id
             </summary>
         </member>
+        <member name="M:Fitness.Api.Controllers.StudyController.Add(Fitness.API.Models.CreateRequest.CreateStudyRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить занятие
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.StudyController.Edit(Fitness.API.Models.Request.StudyRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить занятие
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.StudyController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить занятие по Id
+            </summary>
+        </member>
         <member name="T:Fitness.Api.Controllers.TimeTableItemController">
             <summary>
             CRUD контроллер по работе с элементами расписания
@@ -92,6 +172,26 @@
         <member name="M:Fitness.Api.Controllers.TimeTableItemController.GetById(System.Guid,System.Threading.CancellationToken)">
             <summary>
             Получить элемент расписания по Id
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.TimeTableItemController.Add(Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить элемент расписания
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.TimeTableItemController.Edit(Fitness.API.Models.Request.TimeTableItemRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить элемент расписания
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.TimeTableItemController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить элемент расписания по Id
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Enums.CategoryResponse">
+            <summary>
+            Категории занятий
             </summary>
         </member>
         <member name="F:Fitness.Api.Enums.CategoryResponse.Cardio">
@@ -122,6 +222,11 @@
         <member name="F:Fitness.Api.Enums.CategoryResponse.None">
             <summary>
             Ничего 
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Enums.DocumentTypesResponse">
+            <summary>
+            Документы
             </summary>
         </member>
         <member name="F:Fitness.Api.Enums.DocumentTypesResponse.Diplom">
@@ -229,7 +334,7 @@
         </member>
         <member name="T:Fitness.API.Models.CreateRequest.CreateClubRequest">
             <summary>
-            Клуб
+            Модель запроса создания клуба
             </summary>
         </member>
         <member name="P:Fitness.API.Models.CreateRequest.CreateClubRequest.Title">
@@ -254,7 +359,7 @@
         </member>
         <member name="T:Fitness.API.Models.CreateRequest.CreateCoachRequest">
             <summary>
-            Тренер
+            Модель запроса создания тренера
             </summary>
         </member>
         <member name="P:Fitness.API.Models.CreateRequest.CreateCoachRequest.Surname">
@@ -284,7 +389,7 @@
         </member>
         <member name="T:Fitness.API.Models.CreateRequest.CreateGymRequest">
             <summary>
-            Зал
+            Модель запроса создания зала
             </summary>
         </member>
         <member name="P:Fitness.API.Models.CreateRequest.CreateGymRequest.Title">
@@ -299,7 +404,7 @@
         </member>
         <member name="T:Fitness.API.Models.CreateRequest.CreateStudyRequest">
             <summary>
-            Занятие
+            Модель запроса создания занятия
             </summary>
         </member>
         <member name="P:Fitness.API.Models.CreateRequest.CreateStudyRequest.Title">
@@ -319,7 +424,7 @@
         </member>
         <member name="T:Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest">
             <summary>
-            Элемент расписания
+            Модель запроса создания элемента расписания
             </summary>
         </member>
         <member name="P:Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest.StartTime">
@@ -414,7 +519,7 @@
         </member>
         <member name="T:Fitness.API.Models.Response.ClubResponse">
             <summary>
-            Клуб
+            Модель ответа сущности клуба
             </summary>
         </member>
         <member name="P:Fitness.API.Models.Response.ClubResponse.Id">
@@ -444,7 +549,7 @@
         </member>
         <member name="T:Fitness.API.Models.Response.CoachResponse">
             <summary>
-            Тренер
+            Модель ответа сущности тренера
             </summary>
         </member>
         <member name="P:Fitness.API.Models.Response.CoachResponse.Id">
@@ -469,7 +574,7 @@
         </member>
         <member name="T:Fitness.API.Models.Response.GymResponse">
             <summary>
-            Зал
+            Модель ответа сущности зала
             </summary>
         </member>
         <member name="P:Fitness.API.Models.Response.GymResponse.Id">
@@ -489,7 +594,7 @@
         </member>
         <member name="T:Fitness.API.Models.Response.StudyResponse">
             <summary>
-            Занятие
+            Модель ответа сущности занятия
             </summary>
         </member>
         <member name="P:Fitness.API.Models.Response.StudyResponse.Id">
@@ -514,7 +619,7 @@
         </member>
         <member name="T:Fitness.API.Models.Response.TimeTableItemResponse">
             <summary>
-            Элемент расписания
+            Модель ответа сущности элемента расписания
             </summary>
         </member>
         <member name="P:Fitness.API.Models.Response.TimeTableItemResponse.Id">
@@ -554,7 +659,7 @@
         </member>
         <member name="T:Fitnes.API.Models.CreateRequest.CreateDocumentRequest">
             <summary>
-            Документ
+            Модель запроса создания документа
             </summary>
         </member>
         <member name="P:Fitnes.API.Models.CreateRequest.CreateDocumentRequest.Number">
@@ -589,7 +694,7 @@
         </member>
         <member name="T:Fitnes.API.Models.Response.DocumentResponse">
             <summary>
-            Документ
+            Модель ответа сущности документа
             </summary>
         </member>
         <member name="P:Fitnes.API.Models.Response.DocumentResponse.Id">

@@ -1,5 +1,8 @@
 ﻿namespace Fitness.Context.Contracts.Enums
 {
+    /// <summary>
+    /// Категории занятий
+    /// </summary>
     public enum Category
     {
         /// <summary>

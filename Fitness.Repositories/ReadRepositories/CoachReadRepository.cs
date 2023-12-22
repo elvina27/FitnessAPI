@@ -38,5 +38,7 @@ namespace Fitness.Repositories.ReadRepositories
                 .ByIds(ids)
                 .OrderBy(x => x.Surname)
                 .ToDictionaryAsync(x => x.Id, cancellationToken);
+        Task<bool> ICoachReadRepository.IsNotNullAsync(Guid id, CancellationToken cancellationToken)
+            => reader.Read<Coach>().AnyAsync(x => x.Id == id && !x.DeletedAt.HasValue, cancellationToken);
     }
 }

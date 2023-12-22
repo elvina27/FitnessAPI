@@ -7,7 +7,7 @@ namespace Fitness.Repositories.Contracts.ReadRepositoriesContracts
     /// </summary>
     public interface ICoachReadRepository
     {
-        // <summary>
+        /// <summary>
         /// Получить список всех <see cref="Coach"/>
         /// </summary>
         Task<IReadOnlyCollection<Coach>> GetAllAsync(CancellationToken cancellationToken);
@@ -21,5 +21,10 @@ namespace Fitness.Repositories.Contracts.ReadRepositoriesContracts
         /// Получить <see cref="Coach"/> по идентификаторам
         /// </summary>
         Task<Dictionary<Guid, Coach>> GetByIdsAsync(IEnumerable<Guid> ids, CancellationToken cancellationToken);
+
+        /// <summary>
+        /// Проверить есть ли <see cref="Coach"/> в коллеции
+        /// </summary>
+        Task<bool> IsNotNullAsync(Guid id, CancellationToken cancellationToken);
     }
 }

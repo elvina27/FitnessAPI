@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EUoyiOAYMDlQ0lRMwLldqtQOx9VqgBcYEevcZH5GBqdN4yHplrAZ1hUHCbbLYIpm1MGyf8OJBGfjkjY6ZMx5vQ==",
+  "dgSpecHash": "AkI2SMTHVKo+NS1vMo3YAeZPLIxEfl4zmHcTe5m8nj0cvJpjNOeRUFZWdI/anEDMEJTo54L9smB8WoUWIL494Q==",
   "success": true,
   "projectFilePath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services\\Fitness.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pavel\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\automapper.extensions.enummapping\\3.1.0\\automapper.extensions.enummapping.3.1.0.nupkg.sha512",
+    "C:\\Users\\pavel\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",

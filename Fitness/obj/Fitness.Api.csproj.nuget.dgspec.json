@@ -565,6 +565,9 @@
               "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj": {
                 "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj"
               },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj"
+              },
               "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj": {
                 "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj"
               }
@@ -588,6 +591,10 @@
             "AutoMapper.Extensions.EnumMapping": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
             }
           },
           "imports": [
@@ -640,6 +647,9 @@
               },
               "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj": {
                 "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj"
               },
               "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj": {
                 "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj"
