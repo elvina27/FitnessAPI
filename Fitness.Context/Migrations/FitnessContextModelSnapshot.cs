@@ -70,7 +70,7 @@ namespace Fitness.Context.Migrations
 
                     b.HasIndex("Title")
                         .IsUnique()
-                        .HasDatabaseName("IX_Club_Title")
+                        .HasDatabaseName("Club_Email")
                         .HasFilter("DeletedAt is null");
 
                     b.ToTable("Clubs", (string)null);

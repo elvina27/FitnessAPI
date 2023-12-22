@@ -21,5 +21,10 @@ namespace Fitness.Repositories.Contracts.ReadRepositoriesContracts
         /// Получить <see cref="Study"/> по идентификаторам
         /// </summary>
         Task<Dictionary<Guid, Study>> GetByIdsAsync(IEnumerable<Guid> ids, CancellationToken cancellationToken);
+
+        /// <summary>
+        /// Проверить есть ли <see cref="Study"/> в коллеции
+        /// </summary>
+        Task<bool> IsNotNullAsync(Guid id, CancellationToken cancellationToken);
     }
 }

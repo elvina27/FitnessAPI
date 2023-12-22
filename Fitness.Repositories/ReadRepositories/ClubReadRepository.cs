@@ -26,19 +26,19 @@ namespace Fitness.Repositories.ReadRepositories
              => reader.Read<Club>()
                 .NotDeletedAt()
                 .OrderBy(x => x.Title)
-                .ToReadOnlyCollectionAsync(cancellationToken);
-        
+                .ToReadOnlyCollectionAsync(cancellationToken);      
 
         Task<Club?> IClubReadRepository.GetByIdAsync(Guid id, CancellationToken cancellationToken)
              => reader.Read<Club>()
                 .ById(id)
                 .FirstOrDefaultAsync(cancellationToken);
 
-
         Task<Dictionary<Guid, Club>> IClubReadRepository.GetByIdsAsync(IEnumerable<Guid> ids, CancellationToken cancellationToken)
              => reader.Read<Club>()
                 .ByIds(ids)
                 .OrderBy(x => x.Title)
                 .ToDictionaryAsync(x => x.Id, cancellationToken);
+        Task<bool> IClubReadRepository.IsNotNullAsync(Guid id, CancellationToken cancellationToken)
+            => reader.Read<Club>().AnyAsync(x => x.Id == id && !x.DeletedAt.HasValue, cancellationToken);
     }
 }

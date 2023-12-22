@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Fitness.Context</id>
+    <version>1.0.0</version>
+    <authors>Fitness.Context</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Fitness.Common.Entity" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Fitness.Context.Contracts.Configuration" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Fitness.Context.Contracts" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="5.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Context\bin\Debug\net6.0\Fitness.Context.runtimeconfig.json" target="lib\net6.0\Fitness.Context.runtimeconfig.json" />
+    <file src="C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Context\bin\Debug\net6.0\Fitness.Context.dll" target="lib\net6.0\Fitness.Context.dll" />
+  </files>
+</package>

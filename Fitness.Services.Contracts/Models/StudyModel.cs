@@ -1,4 +1,6 @@
-﻿namespace Fitness.Services.Contracts.Models
+﻿using Fitness.Services.Contracts.Enums;
+
+namespace Fitness.Services.Contracts.Models
 {
     public class StudyModel
     {
@@ -21,5 +23,10 @@
         /// Длительность занятия в минутах
         /// </summary>
         public short Duration { get; set; }
+
+        /// <summary>
+        /// Категории занятий
+        /// </summary>
+        public CategoryModel Category { get; set; }
     }
 }

@@ -1,15 +1,21 @@
 ﻿using AutoMapper;
 using AutoMapper.Extensions.EnumMapping;
+using Fitnes.API.Models.CreateRequest;
 using Fitnes.API.Models.Response;
 using Fitness.Api.Enums;
+using Fitness.API.Models.CreateRequest;
 using Fitness.API.Models.Request;
 using Fitness.API.Models.Response;
 using Fitness.Context.Contracts.Enums;
 using Fitness.Services.Contracts.Enums;
 using Fitness.Services.Contracts.Models;
+using Fitness.Services.Contracts.ModelsRequest;
 
 namespace Fitness.Api.AutoMappers
 {
+    /// <summary>
+    /// Маппер
+    /// </summary>
     public class APIMappers : Profile
     {
         public APIMappers()
@@ -17,7 +23,7 @@ namespace Fitness.Api.AutoMappers
             CreateMap<CategoryModel, CategoryResponse>().ConvertUsingEnumMapping(opt => opt.MapByName()).ReverseMap();
             CreateMap<DocumentTypesModel, DocumentTypesResponse>().ConvertUsingEnumMapping(opt => opt.MapByName()).ReverseMap();
 
-           /* CreateMap<CreateClubRequest, ClubModel>(MemberList.Destination)
+            CreateMap<CreateClubRequest, ClubModel>(MemberList.Destination)
             .ForMember(x => x.Id, opt => opt.Ignore());
 
             CreateMap<CreateCoachRequest, CoachModel>(MemberList.Destination)
@@ -29,9 +35,9 @@ namespace Fitness.Api.AutoMappers
             CreateMap<CreateStudyRequest, StudyModel>(MemberList.Destination)
                 .ForMember(x => x.Id, opt => opt.Ignore());
 
-            CreateMap<CreateStaffRequest, StaffModel>(MemberList.Destination)
-                .ForMember(x => x.Id, opt => opt.Ignore());*/
-
+            CreateMap<CreateDocumentRequest, DocumentRequestModel>(MemberList.Destination)
+                .ForMember(x => x.Id, opt => opt.Ignore());
+          
             CreateMap<ClubRequest, ClubModel>(MemberList.Destination);
             CreateMap<CoachRequest, CoachModel>(MemberList.Destination);
             CreateMap<DocumentRequest, DocumentModel>(MemberList.Destination)
@@ -44,6 +50,9 @@ namespace Fitness.Api.AutoMappers
                 .ForMember(x => x.Gym, opt => opt.Ignore())
                 .ForMember(x => x.Study, opt => opt.Ignore());
 
+            CreateMap<TimeTableItemRequest, TimeTableItemRequestModel>(MemberList.Destination);
+            CreateMap<CreateTimeTableItemRequest, TimeTableItemRequestModel>(MemberList.Destination)
+                .ForMember(x => x.Id, opt => opt.Ignore());
 
             CreateMap<ClubModel, ClubResponse>(MemberList.Destination);
             CreateMap<CoachModel, CoachResponse>(MemberList.Destination)
@@ -53,6 +62,7 @@ namespace Fitness.Api.AutoMappers
             CreateMap<StudyModel, StudyResponse>(MemberList.Destination);
             CreateMap<TimeTableItemModel, TimeTableItemResponse>(MemberList.Destination);
 
+            CreateMap<DocumentRequest, DocumentRequestModel>(MemberList.Destination);
         }
     }
 }

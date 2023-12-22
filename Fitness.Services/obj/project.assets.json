@@ -34,6 +34,19 @@
           }
         }
       },
+      "FluentValidation/11.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -325,6 +338,21 @@
           "bin/placeholder/Fitness.General.dll": {}
         }
       },
+      "Fitness.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Fitness.Common.Entity": "1.0.0",
+          "Fitness.General": "1.0.0",
+          "Fitness.Repositories.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Fitness.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fitness.Repositories.dll": {}
+        }
+      },
       "Fitness.Repositories.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -382,6 +410,29 @@
         "icon.png",
         "lib/netstandard2.1/AutoMapper.Extensions.EnumMapping.dll",
         "lib/netstandard2.1/AutoMapper.Extensions.EnumMapping.xml"
+      ]
+    },
+    "FluentValidation/11.8.1": {
+      "sha512": "N72rnlE99XYB7EGA1u9y7m7kNTTynqOPBhZqDE8zr1Y0aSR4t5si94LRA7UVdAV09GaXWCErW+EiFhfbg3DSbg==",
+      "type": "package",
+      "path": "fluentvalidation/11.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.8.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -790,6 +841,11 @@
       "path": "../Fitness.General/Fitness.General.csproj",
       "msbuildProject": "../Fitness.General/Fitness.General.csproj"
     },
+    "Fitness.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Fitness.Repositories/Fitness.Repositories.csproj",
+      "msbuildProject": "../Fitness.Repositories/Fitness.Repositories.csproj"
+    },
     "Fitness.Repositories.Contracts/1.0.0": {
       "type": "project",
       "path": "../Fitness.Repositories.Contracts/Fitness.Repositories.Contracts.csproj",
@@ -807,8 +863,10 @@
       "AutoMapper.Extensions.EnumMapping >= 3.1.0",
       "Fitness.Context.Contracts >= 1.0.0",
       "Fitness.General >= 1.0.0",
+      "Fitness.Repositories >= 1.0.0",
       "Fitness.Repositories.Contracts >= 1.0.0",
-      "Fitness.Services.Contracts >= 1.0.0"
+      "Fitness.Services.Contracts >= 1.0.0",
+      "FluentValidation >= 11.8.1"
     ]
   },
   "packageFolders": {
@@ -847,6 +905,9 @@
             "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj": {
               "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj"
             },
+            "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj": {
+              "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj"
+            },
             "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj": {
               "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj"
             }
@@ -870,6 +931,10 @@
           "AutoMapper.Extensions.EnumMapping": {
             "target": "Package",
             "version": "[3.1.0, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.8.1, )"
           }
         },
         "imports": [

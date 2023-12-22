@@ -3,7 +3,7 @@
 namespace Fitness.API.Models.CreateRequest
 {
     /// <summary>
-    /// Занятие
+    /// Модель запроса создания занятия
     /// </summary>
     public class CreateStudyRequest
     {

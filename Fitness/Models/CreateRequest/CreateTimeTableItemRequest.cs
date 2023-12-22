@@ -1,7 +1,7 @@
 ﻿namespace Fitness.API.Models.CreateRequest
 {
     /// <summary>
-    /// Элемент расписания
+    /// Модель запроса создания элемента расписания
     /// </summary>
     public class CreateTimeTableItemRequest
     {

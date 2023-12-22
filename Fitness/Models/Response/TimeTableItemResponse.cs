@@ -1,7 +1,7 @@
 ﻿namespace Fitness.API.Models.Response
 {
     /// <summary>
-    /// Элемент расписания
+    /// Модель ответа сущности элемента расписания
     /// </summary>
     public class TimeTableItemResponse
     {

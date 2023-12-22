@@ -3,7 +3,7 @@
 namespace Fitness.API.Models.Response
 {
     /// <summary>
-    /// Занятие
+    /// Модель ответа сущности занятия
     /// </summary>
     public class StudyResponse
     {

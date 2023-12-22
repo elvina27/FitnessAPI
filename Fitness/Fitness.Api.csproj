@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -26,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Fitness.Context\Fitness.Context.csproj" />
     <ProjectReference Include="..\Fitness.General\Fitness.General.csproj" />
+    <ProjectReference Include="..\Fitness.Repositories.Contracts\Fitness.Repositories.Contracts.csproj" />
     <ProjectReference Include="..\Fitness.Repositories\Fitness.Repositories.csproj" />
     <ProjectReference Include="..\Fitness.Services\Fitness.Services.csproj" />
   </ItemGroup>

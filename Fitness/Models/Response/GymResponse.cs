@@ -1,7 +1,7 @@
 ﻿namespace Fitness.API.Models.Response
 {
     /// <summary>
-    /// Зал
+    /// Модель ответа сущности зала
     /// </summary>
     public class GymResponse
     {

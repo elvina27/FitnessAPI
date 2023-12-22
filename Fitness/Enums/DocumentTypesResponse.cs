@@ -1,5 +1,8 @@
 ﻿namespace Fitness.Api.Enums
 {
+    /// <summary>
+    /// Документы
+    /// </summary>
     public enum DocumentTypesResponse
     {
         /// <summary>

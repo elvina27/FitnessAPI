@@ -4,7 +4,7 @@ using Fitness.API.Models.Response;
 namespace Fitnes.API.Models.Response
 {
     /// <summary>
-    /// Документ
+    /// Модель ответа сущности документа
     /// </summary>
     public class DocumentResponse
     {

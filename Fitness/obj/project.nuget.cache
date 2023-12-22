@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J+J8NFxAo7elSSnAnGsZ3dxSTjY9X21KeXa6WED4Iurf118vFszuEfEQFYVfbq+UHh1zWz8sezji4/bu3nJKFQ==",
+  "dgSpecHash": "vIgBpsain2EgUTUpBSyhkwvtyC6pNARI6bCp4p0FUwhgl2zu9q6AWZzaR8M6A7uwbv47O90KI6toVcJ1AR4Esg==",
   "success": true,
   "projectFilePath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness\\Fitness.Api.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\pavel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\pavel\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.0.0\\microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.3.0.0.nupkg.sha512",

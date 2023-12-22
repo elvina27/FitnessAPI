@@ -1,5 +1,8 @@
 ﻿namespace Fitness.Api.Enums
 {
+    /// <summary>
+    /// Категории занятий
+    /// </summary>
     public enum CategoryResponse
     {
         /// <summary>

@@ -24,7 +24,7 @@ namespace Fitness.API.Extensions
             services.AddTransient<IDbWriterContext, DbWriterContext>();
             services.RegistrationService();
             services.RegistrationRepository();
-            services.RegistrationContexts();
+            services.RegistrationContext(); 
             services.AddAutoMapper(typeof(APIMappers), typeof(ServiceMapper));
         }
 
