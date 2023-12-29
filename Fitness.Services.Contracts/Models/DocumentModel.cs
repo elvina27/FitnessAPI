@@ -1,4 +1,6 @@
-﻿using Fitness.Context.Contracts.Enums;
+﻿//using Fitness.Context.Contracts.Enums;
+
+using Fitness.Services.Contracts.Enums;
 
 namespace Fitness.Services.Contracts.Models
 {
@@ -22,7 +24,7 @@ namespace Fitness.Services.Contracts.Models
         /// <summary>
         /// Дата выдачи
         /// </summary>
-        public DateTime IssuedAt { get; set; } = DateTime.MinValue;
+        public DateTime IssuedAt { get; set; } = DateTime.UtcNow;
 
         /// <summary>
         /// Кем выдан

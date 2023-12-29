@@ -31,14 +31,16 @@ namespace Fitness.Repositories.ReadRepositories
         Task<Gym?> IGymReadRepository.GetByIdAsync(Guid id, CancellationToken cancellationToken)
             => reader.Read<Gym>()
                 .ById(id)
+                .NotDeletedAt()
                 .FirstOrDefaultAsync(cancellationToken);
 
         Task<Dictionary<Guid, Gym>> IGymReadRepository.GetByIdsAsync(IEnumerable<Guid> ids, CancellationToken cancellationToken)
             => reader.Read<Gym>()
                 .ByIds(ids)
+                .NotDeletedAt()
                 .OrderBy(x => x.Title)
                 .ToDictionaryAsync(x => x.Id, cancellationToken);
         Task<bool> IGymReadRepository.IsNotNullAsync(Guid id, CancellationToken cancellationToken)
-            => reader.Read<Gym>().AnyAsync(x => x.Id == id && !x.DeletedAt.HasValue, cancellationToken);
+            => reader.Read<Gym>().NotDeletedAt().AnyAsync(x => x.Id == id && !x.DeletedAt.HasValue, cancellationToken);
     }
 }

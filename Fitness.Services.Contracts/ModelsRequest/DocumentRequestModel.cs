@@ -1,4 +1,5 @@
-﻿using Fitness.Context.Contracts.Enums;
+﻿//using Fitness.Context.Contracts.Enums;
+using Fitness.Services.Contracts.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -31,8 +31,9 @@ namespace Fitness.Repositories.ReadRepositories
         Task<TimeTableItem?> ITimeTableItemReadRepository.GetByIdAsync(Guid id, CancellationToken cancellationToken)
         => reader.Read<TimeTableItem>()
                 .ById(id)
+                .NotDeletedAt()
                 .FirstOrDefaultAsync(cancellationToken);
         Task<bool> ITimeTableItemReadRepository.IsNotNullAsync(Guid id, CancellationToken cancellationToken)
-            => reader.Read<TimeTableItem>().AnyAsync(x => x.Id == id && !x.DeletedAt.HasValue, cancellationToken);
+            => reader.Read<TimeTableItem>().NotDeletedAt().AnyAsync(x => x.Id == id && !x.DeletedAt.HasValue, cancellationToken);
     }
 }

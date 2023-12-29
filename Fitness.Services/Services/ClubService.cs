@@ -29,8 +29,6 @@ namespace Fitness.Services.Implementations
             this.validatorService = validatorService;
         }
 
-
-
         async Task<ClubModel> IClubService.AddAsync(ClubModel model, CancellationToken cancellationToken)
         {
             model.Id = Guid.NewGuid();

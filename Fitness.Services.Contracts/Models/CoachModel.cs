@@ -1,4 +1,7 @@
-﻿namespace Fitness.Services.Contracts.Models
+﻿//using Fitness.Context.Contracts.Enums;
+using Fitness.Services.Contracts.Enums;
+
+namespace Fitness.Services.Contracts.Models
 {
     public class CoachModel
     {

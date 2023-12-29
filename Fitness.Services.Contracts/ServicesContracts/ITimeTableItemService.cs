@@ -19,17 +19,17 @@ namespace Fitness.Services.Contracts.ServicesContracts
         Task<TimeTableItemModel?> GetByIdAsync(Guid id, CancellationToken cancellationToken);
 
         /// <summary>
-        /// Добавляет новый кинотетар
+        /// Добавляет новый элемент расписания
         /// </summary>
         Task<TimeTableItemModel> AddAsync(TimeTableItemRequestModel model, CancellationToken cancellationToken);
 
         /// <summary>
-        /// Редактирует существующий кинотеатр
+        /// Редактирует существующий элемент расписания
         /// </summary>
         Task<TimeTableItemModel> EditAsync(TimeTableItemRequestModel source, CancellationToken cancellationToken);
 
         /// <summary>
-        /// Удаляет существующий кинотетар
+        /// Удаляет существующий элемент расписания
         /// </summary>
         Task DeleteAsync(Guid id, CancellationToken cancellationToken);
     }

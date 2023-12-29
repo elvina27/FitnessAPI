@@ -1,0 +1,736 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fitness.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Fitness.Api.AutoMappers.APIMappers">
+            <summary>
+            Маппер
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Controllers.ClubController">
+            <summary>
+            CRUD контроллер по работе с клубами
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.ClubController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Получить список клубов
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.ClubController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Получить клуб по Id
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.ClubController.Add(Fitness.API.Models.CreateRequest.CreateClubRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить клуб
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.ClubController.Edit(Fitness.API.Models.Request.ClubRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить клуб
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.ClubController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить клуб по Id
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Controllers.CoachController">
+            <summary>
+            CRUD контроллер по работе с тренерами
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.CoachController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Получить список тренеров
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.CoachController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Получить тренера по Id
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.CoachController.Add(Fitness.API.Models.CreateRequest.CreateCoachRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить тренера
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.CoachController.Edit(Fitness.API.Models.Request.CoachRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить тренера
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.CoachController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить тренера по Id
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Controllers.DocumentController">
+            <summary>
+            CRUD контроллер по работе с документами
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.DocumentController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Получить список документы
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.DocumentController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Получить документы по Id
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.DocumentController.Add(Fitnes.API.Models.CreateRequest.CreateDocumentRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить документы
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.DocumentController.Edit(Fitness.API.Models.Request.DocumentRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить документы
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.DocumentController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить документы по Id
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Controllers.GymController">
+            <summary>
+            CRUD контроллер по работе с залами
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.GymController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Получить список залов
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.GymController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Получить зал по Id
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.GymController.Add(Fitness.API.Models.CreateRequest.CreateGymRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить зал
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.GymController.Edit(Fitness.API.Models.Request.GymRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить зал
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.GymController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить зал по Id
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Controllers.StudyController">
+            <summary>
+            CRUD контроллер по работе с занятиями
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.StudyController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Получить список занятий
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.StudyController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Получить занятие по Id
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.StudyController.Add(Fitness.API.Models.CreateRequest.CreateStudyRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить занятие
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.StudyController.Edit(Fitness.API.Models.Request.StudyRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить занятие
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.StudyController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить занятие по Id
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Controllers.TimeTableItemController">
+            <summary>
+            CRUD контроллер по работе с элементами расписания
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.TimeTableItemController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Получить список элементов расписания
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.TimeTableItemController.GetById(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Получить элемент расписания по Id
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.TimeTableItemController.Add(Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest,System.Threading.CancellationToken)">
+            <summary>
+            Добавить элемент расписания
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.TimeTableItemController.Edit(Fitness.API.Models.Request.TimeTableItemRequest,System.Threading.CancellationToken)">
+            <summary>
+            Изменить элемент расписания
+            </summary>
+        </member>
+        <member name="M:Fitness.Api.Controllers.TimeTableItemController.Delete(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Удалить элемент расписания по Id
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Enums.CategoryResponse">
+            <summary>
+            Категории занятий
+            </summary>
+        </member>
+        <member name="F:Fitness.Api.Enums.CategoryResponse.Cardio">
+            <summary>
+            Кардио
+            </summary>
+        </member>
+        <member name="F:Fitness.Api.Enums.CategoryResponse.Coordination">
+            <summary>
+            Координация
+            </summary>
+        </member>
+        <member name="F:Fitness.Api.Enums.CategoryResponse.Power">
+            <summary>
+            Сила 
+            </summary>
+        </member>
+        <member name="F:Fitness.Api.Enums.CategoryResponse.Endurance">
+            <summary>
+            Выносливость
+            </summary>
+        </member>
+        <member name="F:Fitness.Api.Enums.CategoryResponse.Flexibility">
+            <summary>
+            Гибкость 
+            </summary>
+        </member>
+        <member name="F:Fitness.Api.Enums.CategoryResponse.None">
+            <summary>
+            Ничего 
+            </summary>
+        </member>
+        <member name="T:Fitness.Api.Enums.DocumentTypesResponse">
+            <summary>
+            Документы
+            </summary>
+        </member>
+        <member name="F:Fitness.Api.Enums.DocumentTypesResponse.Diplom">
+            <summary>
+            Диплом
+            </summary>
+        </member>
+        <member name="F:Fitness.Api.Enums.DocumentTypesResponse.Pasport">
+            <summary>
+            Паспорт
+            </summary>
+        </member>
+        <member name="F:Fitness.Api.Enums.DocumentTypesResponse.None">
+            <summary>
+            Ничего 
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Exceptions.ApiExceptionDetail">
+            <summary>
+            Информация об ошибке работы АПИ
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Exceptions.ApiExceptionDetail.Message">
+            <summary>
+            Сообщение об ошибке
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Exceptions.ApiValidationExceptionDetail">
+            <summary>
+            Информация об ошибках валидации работы АПИ
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Exceptions.ApiValidationExceptionDetail.Errors">
+            <summary>
+            Ошибки валидации
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Extensions.DateTimeProvider">
+            <summary>
+            Реализация <see cref="T:Fitness.Common.Entity.IDateTimeProvider"/>
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Extensions.DbWriterContext">
+            <summary>
+            Реализация <see cref="T:Fitness.Common.Entity.InterfaceDB.IDbWriterContext"/>
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Extensions.DbWriterContext.Writer">
+            <inheritdoc/>
+        </member>
+        <member name="P:Fitness.API.Extensions.DbWriterContext.UnitOfWork">
+            <inheritdoc/>
+        </member>
+        <member name="P:Fitness.API.Extensions.DbWriterContext.DateTimeProvider">
+            <inheritdoc/>
+        </member>
+        <member name="P:Fitness.API.Extensions.DbWriterContext.UserName">
+            <inheritdoc/>
+        </member>
+        <member name="M:Fitness.API.Extensions.DbWriterContext.#ctor(Fitness.Common.Entity.InterfaceDB.IDbWriter,Fitness.Common.Entity.InterfaceDB.IUnitOfWork,Fitness.Common.Entity.IDateTimeProvider)">
+            <summary>
+            Инициализирует новый экземпляр <see cref="T:Fitness.API.Extensions.DbWriterContext"/>
+            </summary>
+            <remarks>В реальном проекте надо добавлять IIdentity для доступа к
+            информации об авторизации</remarks>
+        </member>
+        <member name="T:Fitness.API.Extensions.FitnessExceptionFilter">
+            <summary>
+            Фильтр для обработки ошибок раздела администрирования
+            </summary>
+        </member>
+        <member name="M:Fitness.API.Extensions.FitnessExceptionFilter.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Fitness.API.Extensions.FitnessExceptionFilter.SetDataToContext(Microsoft.AspNetCore.Mvc.ObjectResult,Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            Определяет контекст ответа
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Extensions.ServiceExtensions">
+            <summary>
+            Расширения для <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>
+            </summary>
+        </member>
+        <member name="M:Fitness.API.Extensions.ServiceExtensions.RegistrationSRC(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Регистрирует все сервисы, репозитории и все что нужно для контекста
+            </summary>
+        </member>
+        <member name="M:Fitness.API.Extensions.ServiceExtensions.RegistrationControllers(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Включает фильтры и ставит шрифт на перечесления
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Fitness.API.Extensions.ServiceExtensions.RegistrationSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Настройки свагера
+            </summary>
+        </member>
+        <member name="M:Fitness.API.Extensions.ServiceExtensions.CustomizeSwaggerUI(Microsoft.AspNetCore.Builder.WebApplication)">
+            <summary>
+            Настройки свагера
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.CreateRequest.CreateClubRequest">
+            <summary>
+            Модель запроса создания клуба
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateClubRequest.Title">
+            <summary>
+            Название клуба
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateClubRequest.Metro">
+            <summary>
+            Станция метро 
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateClubRequest.Address">
+            <summary>
+            Адрес 
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateClubRequest.Email">
+            <summary>
+            Почта
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.CreateRequest.CreateCoachRequest">
+            <summary>
+            Модель запроса создания тренера
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateCoachRequest.Surname">
+            <summary>
+            Фамилия 
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateCoachRequest.Name">
+            <summary>
+            Имя 
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateCoachRequest.Patronymic">
+            <summary>
+            Отчество 
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateCoachRequest.Email">
+            <summary>
+            Почта
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateCoachRequest.Age">
+            <summary>
+            Возраст
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.CreateRequest.CreateGymRequest">
+            <summary>
+            Модель запроса создания зала
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateGymRequest.Title">
+            <summary>
+            Название зала
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateGymRequest.Capacity">
+            <summary>
+            Вместимость зала
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.CreateRequest.CreateStudyRequest">
+            <summary>
+            Модель запроса создания занятия
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateStudyRequest.Title">
+            <summary>
+            Название занятия
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateStudyRequest.Description">
+            <summary>
+            Описание занятия
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateStudyRequest.Duration">
+            <summary>
+            Длительность занятия в минутах
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest">
+            <summary>
+            Модель запроса создания элемента расписания
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest.StartTime">
+            <summary>
+            Дата начала
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest.StudyId">
+            <summary>
+            Идентификатор занятия
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest.CoachId">
+            <summary>
+            Идентификатор тренера
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest.GymId">
+            <summary>
+            Идентификатор зала
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest.Warning">
+            <summary>
+            Предупреждение
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.CreateRequest.CreateTimeTableItemRequest.ClubId">
+            <summary>
+            Идентификатор клуба
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Request.ClubRequest">
+            <summary>
+             Модель запроса создания клуба
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Request.ClubRequest.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Request.CoachRequest">
+            <summary>
+             Модель запроса создания тренера
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Request.CoachRequest.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Request.DocumentRequest">
+            <summary>
+             Модель запроса создания документа
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Request.DocumentRequest.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Request.GymRequest">
+            <summary>
+             Модель запроса создания зала
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Request.GymRequest.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Request.StudyRequest">
+            <summary>
+             Модель запроса создания занятия
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Request.StudyRequest.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Request.TimeTableItemRequest">
+            <summary>
+             Модель запроса создания элемента расписания
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Request.TimeTableItemRequest.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Response.ClubResponse">
+            <summary>
+            Модель ответа сущности клуба
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.ClubResponse.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.ClubResponse.Title">
+            <summary>
+            Название клуба
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.ClubResponse.Metro">
+            <summary>
+            Станция метро 
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.ClubResponse.Address">
+            <summary>
+            Адрес 
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.ClubResponse.Email">
+            <summary>
+            Почта
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Response.CoachResponse">
+            <summary>
+            Модель ответа сущности тренера
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.CoachResponse.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.CoachResponse.Name">
+            <summary>
+            Имя 
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.CoachResponse.Email">
+            <summary>
+            Почта
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.CoachResponse.Age">
+            <summary>
+            Возраст
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Response.GymResponse">
+            <summary>
+            Модель ответа сущности зала
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.GymResponse.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.GymResponse.Title">
+            <summary>
+            Название зала
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.GymResponse.Capacity">
+            <summary>
+            Вместимость зала
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Response.StudyResponse">
+            <summary>
+            Модель ответа сущности занятия
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.StudyResponse.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.StudyResponse.Title">
+            <summary>
+            Название занятия
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.StudyResponse.Description">
+            <summary>
+            Описание занятия
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.StudyResponse.Duration">
+            <summary>
+            Длительность занятия в минутах
+            </summary>
+        </member>
+        <member name="T:Fitness.API.Models.Response.TimeTableItemResponse">
+            <summary>
+            Модель ответа сущности элемента расписания
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.TimeTableItemResponse.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.TimeTableItemResponse.StartTime">
+            <summary>
+            Дата начала
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.TimeTableItemResponse.Study">
+            <summary>
+            Идентификатор занятия
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.TimeTableItemResponse.Coach">
+            <summary>
+            Идентификатор тренера
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.TimeTableItemResponse.Gym">
+            <summary>
+            Идентификатор зала
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.TimeTableItemResponse.Warning">
+            <summary>
+            Предупреждение
+            </summary>
+        </member>
+        <member name="P:Fitness.API.Models.Response.TimeTableItemResponse.Club">
+            <summary>
+            Идентификатор клуба
+            </summary>
+        </member>
+        <member name="T:Fitnes.API.Models.CreateRequest.CreateDocumentRequest">
+            <summary>
+            Модель запроса создания документа
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.CreateRequest.CreateDocumentRequest.Number">
+            <summary>
+            Номер документа
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.CreateRequest.CreateDocumentRequest.Series">
+            <summary>
+            Серия документа
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.CreateRequest.CreateDocumentRequest.IssuedAt">
+            <summary>
+            Дата выдачи
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.CreateRequest.CreateDocumentRequest.IssuedBy">
+            <summary>
+            Кем выдан
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.CreateRequest.CreateDocumentRequest.DocumentType">
+            <summary>
+            Тип документов
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.CreateRequest.CreateDocumentRequest.CoachId">
+            <summary>
+            Идентификатор <see cref="!:Coach"/>
+            </summary>
+        </member>
+        <member name="T:Fitnes.API.Models.Response.DocumentResponse">
+            <summary>
+            Модель ответа сущности документа
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.Response.DocumentResponse.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.Response.DocumentResponse.Number">
+            <summary>
+            Номер документа
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.Response.DocumentResponse.Series">
+            <summary>
+            Серия документа
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.Response.DocumentResponse.IssuedAt">
+            <summary>
+            Дата выдачи
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.Response.DocumentResponse.IssuedBy">
+            <summary>
+            Кем выдан
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.Response.DocumentResponse.DocumentType">
+            <summary>
+            Тип документов
+            </summary>
+        </member>
+        <member name="P:Fitnes.API.Models.Response.DocumentResponse.Coach">
+            <summary>
+            Идентификатор <see cref="T:Fitness.API.Models.Response.CoachResponse"/>
+            </summary>
+        </member>
+    </members>
+</doc>

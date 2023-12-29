@@ -15,14 +15,13 @@ namespace Fitness.Services.Validator.Validators
     {
         public ClubModelValidator()
         {
-
             RuleFor(x => x.Title)
                 .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
                 .NotNull().WithMessage(MessageForValidation.DefaultMessage)
                 .Length(3, 100).WithMessage(MessageForValidation.LengthMessage);
 
             RuleFor(x => x.Metro)
-                .Length(2, 30).WithMessage(MessageForValidation.LengthMessage);
+                .Length(2, 50).WithMessage(MessageForValidation.LengthMessage);
 
             RuleFor(x => x.Address)
                 .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
@@ -30,9 +29,7 @@ namespace Fitness.Services.Validator.Validators
                 .Length(3, 200).WithMessage(MessageForValidation.LengthMessage);
 
             RuleFor(x => x.Email)
-                .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
-                .NotNull().WithMessage(MessageForValidation.DefaultMessage)
-                .Length(3, 100).WithMessage(MessageForValidation.LengthMessage);
+                .EmailAddress().WithMessage(MessageForValidation.DefaultMessage);
         }
     }
 }

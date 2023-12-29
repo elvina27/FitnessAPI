@@ -15,16 +15,12 @@ namespace Fitness.Services.Validator.Validators
             RuleFor(x => x.Number)
                 .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
                 .NotNull().WithMessage(MessageForValidation.DefaultMessage)
-                .Length(3, 50).WithMessage(MessageForValidation.LengthMessage);
+                .Length(6, 50).WithMessage(MessageForValidation.LengthMessage);
 
             RuleFor(x => x.Series)
                 .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
                 .NotNull().WithMessage(MessageForValidation.DefaultMessage)
-                .Length(10, 100).WithMessage(MessageForValidation.LengthMessage);
-
-            RuleFor(x => x.IssuedAt)
-               .NotNull().WithMessage(MessageForValidation.DefaultMessage)
-               .GreaterThan(DateTime.Now.AddMinutes(1)).WithMessage(MessageForValidation.InclusiveBetweenMessage);
+                .Length(2, 8).WithMessage(MessageForValidation.LengthMessage);           
 
             RuleFor(x => x.IssuedBy)
                 .Length(10, 100).WithMessage(MessageForValidation.LengthMessage);

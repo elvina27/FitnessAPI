@@ -1,12 +1,13 @@
 using System.Net.Sockets;
 using System;
 using Fitness.Context.Contracts.Models;
+using Fitness.Context.Contracts.Enums;
 
 namespace Fitness.Repositories.Tests
 {
     internal static class TestDataGenerator
     {
-        static internal Club Cinema(Action<Club>? settings = null)
+        static internal Club Club(Action<Club>? settings = null)
         {
             var result = new Club
             {
@@ -21,7 +22,7 @@ namespace Fitness.Repositories.Tests
             return result;
         }
 
-        static internal Coach Film(Action<Coach>? settings = null)
+        static internal Coach Coach(Action<Coach>? settings = null)
         {
             var result = new Coach
             {
@@ -29,7 +30,7 @@ namespace Fitness.Repositories.Tests
                 Name = $"{Guid.NewGuid():N}",
                 Patronymic = $"{Guid.NewGuid():N}",
                 Email = $"{Guid.NewGuid():N}",
-                Age = 18
+                Age = 31
                 
             };
             result.BaseAuditSetParamtrs();
@@ -38,12 +39,16 @@ namespace Fitness.Repositories.Tests
             return result;
         }
 
-        static internal Document Hall(Action<Document>? settings = null)
+        static internal Document Document(Action<Document>? settings = null) //уточнить верность!
         {
             var result = new Document
             {
-                Number = 1,
-                NumberOfSeats = 20
+                Number = $"{Guid.NewGuid():N}",
+                Series = $"{Guid.NewGuid():N}",
+                IssuedBy = $"{Guid.NewGuid():N}",
+                DocumentType = Context.Contracts.Enums.DocumentTypes.Pasport,
+                ///добавила хз правильно ли
+                CoachId = Guid.NewGuid()
             };
             result.BaseAuditSetParamtrs();
 
@@ -51,15 +56,12 @@ namespace Fitness.Repositories.Tests
             return result;
         }
 
-        static internal Gym Client(Action<Gym>? settings = null)
+        static internal Gym Gym(Action<Gym>? settings = null)
         {
             var result = new Gym
             {
-                FirstName = $"{Guid.NewGuid():N}",
-                LastName = $"{Guid.NewGuid():N}",
-                Patronymic = $"{Guid.NewGuid():N}",
-                Age = 18,
-                Email = $"{Guid.NewGuid():N}"
+                Title = $"{Guid.NewGuid():N}",
+                Capacity = 30
             };
             result.BaseAuditSetParamtrs();
 
@@ -67,15 +69,14 @@ namespace Fitness.Repositories.Tests
             return result;
         }
 
-        static internal Study Staff(Action<Study>? settings = null)
+        static internal Study Study(Action<Study>? settings = null)
         {
             var result = new Study
             {
-                FirstName = $"{Guid.NewGuid():N}",
-                LastName = $"{Guid.NewGuid():N}",
-                Patronymic = $"{Guid.NewGuid():N}",
-                Age = 18,
-                Post = Context.Contracts.Enums.Post.Manager
+                Title = $"{Guid.NewGuid():N}",
+                Description = $"{Guid.NewGuid():N}",
+                Duration = 55,
+                Category = Context.Contracts.Enums.Category.Cardio
             };
             result.BaseAuditSetParamtrs();
 
@@ -83,14 +84,12 @@ namespace Fitness.Repositories.Tests
             return result;
         }
 
-        static internal TimeTableItem Ticket(Action<TimeTableItem>? settings = null)
+        static internal TimeTableItem TimeTableItem(Action<TimeTableItem>? settings = null)
         {
             var result = new TimeTableItem
             {
-                Date = DateTimeOffset.Now,
-                Place = 1,
-                Row = 1,
-                Price = 100
+                StartTime = DateTimeOffset.Now,
+                Warning = $"{Guid.NewGuid():N}"
             };
             result.BaseAuditSetParamtrs();
 

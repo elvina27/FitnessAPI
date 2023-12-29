@@ -13,7 +13,7 @@ namespace Fitness.Repositories.ReadRepositories
     public class StudyReadRepository : IStudyReadRepository, IRepositoryAnchor
     {
         /// <summary>
-        /// Reader для связи с бд
+        /// Контекст для связи с бд
         /// </summary>
         private IDbRead reader;
 
@@ -31,14 +31,16 @@ namespace Fitness.Repositories.ReadRepositories
         Task<Study?> IStudyReadRepository.GetByIdAsync(Guid id, CancellationToken cancellationToken)
         => reader.Read<Study>()
                 .ById(id)
+                .NotDeletedAt()
                 .FirstOrDefaultAsync(cancellationToken);
 
         Task<Dictionary<Guid, Study>> IStudyReadRepository.GetByIdsAsync(IEnumerable<Guid> ids, CancellationToken cancellationToken)
         => reader.Read<Study>()
                 .ByIds(ids)
                 .OrderBy(x => x.Title)
+                .NotDeletedAt()
                 .ToDictionaryAsync(x => x.Id, cancellationToken);
         Task<bool> IStudyReadRepository.IsNotNullAsync(Guid id, CancellationToken cancellationToken)
-            => reader.Read<Study>().AnyAsync(x => x.Id == id && !x.DeletedAt.HasValue, cancellationToken);
+            => reader.Read<Study>().NotDeletedAt().AnyAsync(x => x.Id == id && !x.DeletedAt.HasValue, cancellationToken);
     }
 }

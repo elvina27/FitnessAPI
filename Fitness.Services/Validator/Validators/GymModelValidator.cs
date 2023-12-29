@@ -19,10 +19,10 @@ namespace Fitness.Services.Validator.Validators
             RuleFor(x => x.Title)
                 .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
                 .NotNull().WithMessage(MessageForValidation.DefaultMessage)
-                .Length(3, 100).WithMessage(MessageForValidation.LengthMessage);
+                .Length(10, 100).WithMessage(MessageForValidation.LengthMessage);
 
             RuleFor(x => (int)x.Capacity)
-             .InclusiveBetween(1, 30).WithMessage(MessageForValidation.InclusiveBetweenMessage);           
+             .InclusiveBetween(1, 50).WithMessage(MessageForValidation.InclusiveBetweenMessage);           
         }
     }
 }

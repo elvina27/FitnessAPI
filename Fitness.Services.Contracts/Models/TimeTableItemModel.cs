@@ -11,7 +11,7 @@
         /// <summary>
         /// Дата начала
         /// </summary>
-        public DateTimeOffset StartTime { get; set; }
+        public DateTimeOffset StartTime { get; set; } = DateTimeOffset.UtcNow;
 
         /// <summary>
         /// Идентификатор занятия

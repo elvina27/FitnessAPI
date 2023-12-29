@@ -13,7 +13,7 @@ namespace Fitness.Services.Validator.Validators
     /// <summary>
     /// Валидатор <see cref="TimeTableItemModel"/>
     /// </summary>
-    internal class TimeTableItemRequestValidator : AbstractValidator<TimeTableItemRequestModel>
+    public class TimeTableItemRequestValidator : AbstractValidator<TimeTableItemRequestModel>
     {
         private readonly IClubReadRepository clubReadRepository;
         private readonly ICoachReadRepository coachReadRepository;
@@ -28,9 +28,6 @@ namespace Fitness.Services.Validator.Validators
             this.gymReadRepository = gymReadRepository;
             this.studyReadRepository = studyReadRepository;
 
-            RuleFor(x => x.StartTime)
-                .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
-                .GreaterThan(DateTimeOffset.Now.AddMinutes(1)).WithMessage(MessageForValidation.InclusiveBetweenMessage);///
 
             RuleFor(x => x.StudyId)
                 .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)

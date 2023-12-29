@@ -15,17 +15,17 @@ namespace Fitness.Services.Contracts.ServicesContracts
         Task<CoachModel?> GetByIdAsync(Guid id, CancellationToken cancellationToken);
 
         /// <summary>
-        /// Добавляет новый кинотетар
+        /// Добавляет нового тренера
         /// </summary>
         Task<CoachModel> AddAsync(CoachModel model, CancellationToken cancellationToken);
 
         /// <summary>
-        /// Редактирует существующий кинотеатр
+        /// Редактирует существующего тренера
         /// </summary>
         Task<CoachModel> EditAsync(CoachModel source, CancellationToken cancellationToken);
 
         /// <summary>
-        /// Удаляет существующий кинотетар
+        /// Удаляет существующего тренера
         /// </summary>
         Task DeleteAsync(Guid id, CancellationToken cancellationToken);
     }

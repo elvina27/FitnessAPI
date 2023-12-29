@@ -1,4 +1,4 @@
-﻿namespace Fitness.Context.Contracts.Enums
+﻿namespace Fitness.Services.Contracts.Enums
 {
     public enum DocumentTypesModel
     {

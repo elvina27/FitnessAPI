@@ -1,0 +1,15 @@
+{
+  "Fitness.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness",
+  "Fitness.Common.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity",
+  "Fitness.Context.Contracts.Configuration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts.Configuration",
+  "Fitness.Context.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts",
+  "Fitness.Context, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context",
+  "Fitness.Context.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Tests",
+  "Fitness.General, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General",
+  "Fitness.Repositories.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts",
+  "Fitness.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories",
+  "Fitness.Services.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts",
+  "Fitness.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services",
+  "Fitness.Services.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Service.Tests",
+  "Fitness.Tests.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions"
+}

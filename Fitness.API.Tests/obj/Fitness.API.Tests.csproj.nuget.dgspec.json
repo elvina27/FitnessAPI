@@ -1,0 +1,1077 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.API.Tests\\Fitness.API.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.API.Tests\\Fitness.API.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.API.Tests\\Fitness.API.Tests.csproj",
+        "projectName": "Fitness.API.Tests",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.API.Tests\\Fitness.API.Tests.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.API.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\Fitness.Context.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\Fitness.Context.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Service.Tests\\Fitness.Services.Tests.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Service.Tests\\Fitness.Services.Tests.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions\\Fitness.Tests.Extensions.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions\\Fitness.Tests.Extensions.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness\\Fitness.Api.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness\\Fitness.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj",
+        "projectName": "Fitness.Common.Entity",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts.Configuration\\Fitness.Context.Contracts.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts.Configuration\\Fitness.Context.Contracts.Configuration.csproj",
+        "projectName": "Fitness.Context.Contracts.Configuration",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts.Configuration\\Fitness.Context.Contracts.Configuration.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj",
+        "projectName": "Fitness.Context.Contracts",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Tests\\Fitness.Context.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Tests\\Fitness.Context.Tests.csproj",
+        "projectName": "Fitness.Context.Tests",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Tests\\Fitness.Context.Tests.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\Fitness.Context.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\Fitness.Context.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\Fitness.Context.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\Fitness.Context.csproj",
+        "projectName": "Fitness.Context",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\Fitness.Context.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts.Configuration\\Fitness.Context.Contracts.Configuration.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts.Configuration\\Fitness.Context.Contracts.Configuration.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj",
+        "projectName": "Fitness.General",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj",
+        "projectName": "Fitness.Repositories.Contracts",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj",
+        "projectName": "Fitness.Repositories",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Common.Entity\\Fitness.Common.Entity.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Service.Tests\\Fitness.Services.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Service.Tests\\Fitness.Services.Tests.csproj",
+        "projectName": "Fitness.Services.Tests",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Service.Tests\\Fitness.Services.Tests.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Service.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Tests\\Fitness.Context.Tests.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Tests\\Fitness.Context.Tests.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services\\Fitness.Services.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services\\Fitness.Services.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions\\Fitness.Tests.Extensions.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions\\Fitness.Tests.Extensions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj",
+        "projectName": "Fitness.Services.Contracts",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services\\Fitness.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services\\Fitness.Services.csproj",
+        "projectName": "Fitness.Services",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services\\Fitness.Services.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.EnumMapping": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions\\Fitness.Tests.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions\\Fitness.Tests.Extensions.csproj",
+        "projectName": "Fitness.Tests.Extensions",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions\\Fitness.Tests.Extensions.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context.Contracts\\Fitness.Context.Contracts.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services.Contracts\\Fitness.Services.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness\\Fitness.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness\\Fitness.Api.csproj",
+        "projectName": "Fitness.Api",
+        "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness\\Fitness.Api.csproj",
+        "packagesPath": "C:\\Users\\pavel\\.nuget\\packages\\",
+        "outputPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pavel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\Fitness.Context.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Context\\Fitness.Context.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.General\\Fitness.General.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories.Contracts\\Fitness.Repositories.Contracts.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Repositories\\Fitness.Repositories.csproj"
+              },
+              "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services\\Fitness.Services.csproj": {
+                "projectPath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Services\\Fitness.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.EnumMapping": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
