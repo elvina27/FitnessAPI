@@ -13,7 +13,7 @@ namespace Fitness.Tests.Extensions
             var result = new Club
             {
                 Title = $"{Guid.NewGuid():N}",
-                Metro = $"{Guid.NewGuid():N}",
+                Metro = $"{DateTimeOffset.UtcNow}",
                 Address = $"{Guid.NewGuid():N}",
                 Email = $"{Guid.NewGuid():N}@mail.com"
             };
@@ -44,10 +44,11 @@ namespace Fitness.Tests.Extensions
         {
             var result = new Document
             {
-                Number = $"{Guid.NewGuid():N}",
-                Series = $"{Guid.NewGuid():N}",
+                Number = string.Join("", Guid.NewGuid().ToString().Take(11)),
+                Series = string.Join("", Guid.NewGuid().ToString().Take(7)),
                 IssuedBy = $"{Guid.NewGuid():N}",
-                DocumentType = Context.Contracts.Enums.DocumentTypes.Diplom,
+                DocumentType = Context.Contracts.Enums.DocumentTypes.Diplom
+
                 //попытка не пытка
                 //CoachId = Guid.NewGuid()
             };
@@ -104,7 +105,7 @@ namespace Fitness.Tests.Extensions
             {
                 Id = Guid.NewGuid(),
                 Title = $"{Guid.NewGuid():N}",
-                Metro = $"{Guid.NewGuid():N}",
+                Metro = $"{DateTimeOffset.UtcNow}",
                 Address = $"{Guid.NewGuid():N}",
                 Email = $"{Guid.NewGuid():N}@mail.ru"
             };
@@ -130,15 +131,15 @@ namespace Fitness.Tests.Extensions
             return result;
         }
 
-        static public DocumentRequestModel DocumentRequestModel(Action<DocumentRequestModel>? settings = null) //уточнить верность!
+        static public DocumentRequestModel DocumentRequestModel(Action<DocumentRequestModel>? settings = null) 
         {
             var result = new DocumentRequestModel
             {
                 Id = Guid.NewGuid(),
-                Number = $"{Guid.NewGuid():N}",
-                Series = $"{Guid.NewGuid():N}",
+                Number = string.Join("", Guid.NewGuid().ToString().Take(11)),
+                Series = string.Join("", Guid.NewGuid().ToString().Take(7)),
                 IssuedBy = $"{Guid.NewGuid():N}",
-                DocumentType = DocumentTypesModel.None,
+               // DocumentType = DocumentTypesModel.None,
                 //дай бог
                 //CoachId = Guid.NewGuid()
             };

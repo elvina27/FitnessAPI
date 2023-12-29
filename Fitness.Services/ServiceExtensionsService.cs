@@ -19,7 +19,7 @@ namespace Fitness.Services
         /// Регистрация всех сервисов и валидатора
         /// </summary>
         public static void RegistrationService(this IServiceCollection service)
-        {
+        {           
             service.RegistrationOnInterface<IServiceAnchor>(ServiceLifetime.Scoped);
             service.AddTransient<IServiceValidatorService, ServicesValidatorService>();
         }

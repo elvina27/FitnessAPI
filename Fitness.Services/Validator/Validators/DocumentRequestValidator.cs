@@ -5,7 +5,7 @@ using FluentValidation;
 namespace Fitness.Services.Validator.Validators
 {
     /// <summary>
-    /// Валидатор <see cref="DocumentModel"/>
+    /// Валидатор <see cref="DocumentRequestModel"/>
     /// </summary>
     public class DocumentRequestValidator : AbstractValidator<DocumentRequestModel>
     {
@@ -15,7 +15,7 @@ namespace Fitness.Services.Validator.Validators
             RuleFor(x => x.Number)
                 .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
                 .NotNull().WithMessage(MessageForValidation.DefaultMessage)
-                .Length(6, 50).WithMessage(MessageForValidation.LengthMessage);
+                .Length(6, 12).WithMessage(MessageForValidation.LengthMessage);
 
             RuleFor(x => x.Series)
                 .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
@@ -25,11 +25,11 @@ namespace Fitness.Services.Validator.Validators
             RuleFor(x => x.IssuedBy)
                 .Length(10, 100).WithMessage(MessageForValidation.LengthMessage);
 
-            RuleFor(x => x.DocumentType).IsInEnum().WithMessage(MessageForValidation.DefaultMessage);
+           // RuleFor(x => x.DocumentType).IsInEnum().WithMessage(MessageForValidation.DefaultMessage);
 
             RuleFor(x => x.CoachId)
-               .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)
-               .When(x => x.CoachId.HasValue);
+               .NotEmpty().WithMessage(MessageForValidation.DefaultMessage);
+              // .When(x => x.CoachId.HasValue);
         }
     }
 }

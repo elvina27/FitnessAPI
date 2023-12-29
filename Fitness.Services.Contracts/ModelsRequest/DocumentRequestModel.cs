@@ -31,7 +31,7 @@ namespace Fitness.Services.Contracts.ModelsRequest
         /// <summary>
         /// Дата выдачи
         /// </summary>
-        public DateTime IssuedAt { get; set; } 
+        public DateTime IssuedAt { get; set; } //= DateTime.UtcNow;
 
         /// <summary>
         /// Кем выдан

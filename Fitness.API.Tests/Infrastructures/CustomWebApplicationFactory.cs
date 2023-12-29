@@ -11,7 +11,7 @@ namespace Fitness.API.Tests.Infrastructures
 {
     public class CustomWebApplicationFactory : WebApplicationFactory<Program>
     {
-        public static string EnvironmentName = "Integration";
+        public static string EnvironmentName = "integration";
 
         /// <inheritdoc cref="WebApplicationFactory{TEntryPoint}.CreateHost"/>
         protected override IHost CreateHost(IHostBuilder builder)

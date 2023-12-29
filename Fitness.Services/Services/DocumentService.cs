@@ -25,28 +25,29 @@ namespace Fitness.Services.Implementations
         private readonly ICoachReadRepository coachReadRepository;
         private readonly IServiceValidatorService validatorService;
 
-        public DocumentService(IDocumentReadRepository documentReadRepository, 
-            IDocumentWriteRepository documentWriteRepository, 
-            IMapper mapper, ICoachReadRepository coachReadRepository, 
-            IServiceValidatorService validatorService)
+        public DocumentService(IDocumentReadRepository documentReadRepository,
+            IDocumentWriteRepository documentWriteRepository,
+            IMapper mapper, ICoachReadRepository coachReadRepository,
+            IServiceValidatorService validatorService, IUnitOfWork unitOfWork)
         {
             this.documentReadRepository = documentReadRepository;
             this.documentWriteRepository = documentWriteRepository;
             this.mapper = mapper;
             this.coachReadRepository = coachReadRepository;
-            this.validatorService = validatorService; 
+            this.validatorService = validatorService;
+            this.unitOfWork = unitOfWork;
         }
 
         async Task<IEnumerable<DocumentModel>> IDocumentService.GetAllAsync(CancellationToken cancellationToken)
         {
             var result = await documentReadRepository.GetAllAsync(cancellationToken);
-            var coaches = await coachReadRepository.GetByIdsAsync(result.Where(x => x.CoachId.HasValue).Select(x => x.CoachId!.Value).Distinct() ,cancellationToken);          
+            var coaches = await coachReadRepository.GetByIdsAsync(result.Where(x => x.CoachId.HasValue).Select(x => x.CoachId!.Value).Distinct(), cancellationToken);
 
             var results = new List<DocumentModel>();
 
             foreach (var document in result)
             {
-                var Model = mapper.Map<DocumentModel>(document);    
+                var Model = mapper.Map<DocumentModel>(document);
                 Model.Coach = document.CoachId.HasValue &&
                                               coaches.TryGetValue(document.CoachId!.Value, out var coach)
                         ? mapper.Map<CoachModel>(coach)
@@ -135,3 +136,4 @@ namespace Fitness.Services.Implementations
         }
     }
 }
+

@@ -479,3 +479,4 @@ C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.API.Tests\obj\Deb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.API.Tests\obj\Debug\net6.0\Fitness.API.Tests.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.API.Tests\obj\Debug\net6.0\Fitness.API.Tests.genruntimeconfig.cache
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.API.Tests\obj\Debug\net6.0\ref\Fitness.API.Tests.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.API.Tests\bin\Debug\net6.0\appsettings.integration.json

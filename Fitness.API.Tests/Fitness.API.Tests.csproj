@@ -37,4 +37,10 @@
     <ProjectReference Include="..\Fitness\Fitness.Api.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="appsettings.integration.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

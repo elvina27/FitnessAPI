@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace Fitness.Context.Migrations
 {
-    public partial class install : Migration
+    public partial class updatedb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -97,7 +98,7 @@ namespace Fitness.Context.Migrations
                     IssuedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IssuedBy = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DocumentType = table.Column<int>(type: "int", nullable: false),
-                    CoachId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    CoachId = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     CreatedAt = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
                     CreatedBy = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
@@ -111,8 +112,7 @@ namespace Fitness.Context.Migrations
                         name: "FK_Documents_Coaches_CoachId",
                         column: x => x.CoachId,
                         principalTable: "Coaches",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -161,7 +161,7 @@ namespace Fitness.Context.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Club_Title",
+                name: "Club_Email",
                 table: "Clubs",
                 column: "Title",
                 unique: true,

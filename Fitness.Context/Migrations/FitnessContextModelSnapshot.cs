@@ -142,7 +142,6 @@ namespace Fitness.Context.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid?>("CoachId")
-                        .IsRequired()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTimeOffset>("CreatedAt")
@@ -357,9 +356,7 @@ namespace Fitness.Context.Migrations
                 {
                     b.HasOne("Fitness.Context.Contracts.Models.Coach", "Coach")
                         .WithMany("Documents")
-                        .HasForeignKey("CoachId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CoachId");
 
                     b.Navigation("Coach");
                 });

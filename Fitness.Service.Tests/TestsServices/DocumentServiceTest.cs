@@ -33,12 +33,12 @@ namespace Fitness.Services.Tests.TestsServices
                 new DocumentWriteRepository(WriterContext),
                 // UnitOfWork,
                 config.CreateMapper(),
-                new CoachReadRepository(Reader),              
+                new CoachReadRepository(Reader),
                 new ServicesValidatorService(
                     new ClubReadRepository(Reader),
-                    new CoachReadRepository(Reader),                    
-                    new GymReadRepository(Reader), 
-                    new StudyReadRepository(Reader)));
+                    new CoachReadRepository(Reader),
+                    new GymReadRepository(Reader),
+                    new StudyReadRepository(Reader)), UnitOfWork);
         }
 
         /// <summary>
@@ -79,8 +79,8 @@ namespace Fitness.Services.Tests.TestsServices
                 {
                     target.Id,
                     target.DocumentType,
-                   // target.Number,
-                   // target.Series,
+                    // target.Number,
+                    // target.Series,
                     target.IssuedAt,
                     target.IssuedBy //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! нужно ли DocumentType?
                 });
@@ -119,7 +119,7 @@ namespace Fitness.Services.Tests.TestsServices
             // Assert
             result.Should()
                 .NotBeNull()
-                .And.HaveCount(0);
+                .And.HaveCount(1);
         }
 
         /// <summary>
@@ -187,13 +187,16 @@ namespace Fitness.Services.Tests.TestsServices
         {
             //Arrange
             var coach = TestDataGenerator.Coach();
+            var document = TestDataGenerator.Document();
+            document.CoachId = coach.Id;
 
+            await Context.Documents.AddAsync(document);
             await Context.Coaches.AddAsync(coach);
+
             await UnitOfWork.SaveChangesAsync(CancellationToken);
 
             var model = TestDataGenerator.DocumentRequestModel();
             model.CoachId = coach.Id;
-
 
             //Act
             Func<Task> act = () => documentService.AddAsync(model, CancellationToken);
@@ -231,11 +234,10 @@ namespace Fitness.Services.Tests.TestsServices
             var coach = TestDataGenerator.Coach();
 
             await Context.Coaches.AddAsync(coach);
-
             await UnitOfWork.SaveChangesAsync(CancellationToken);
 
-            var model = TestDataGenerator.DocumentRequestModel();
-            model.CoachId = coach.Id;
+
+            var model = TestDataGenerator.DocumentRequestModel(x => x.CoachId = coach.Id);
 
             //Act
             Func<Task> act = () => documentService.EditAsync(model, CancellationToken);

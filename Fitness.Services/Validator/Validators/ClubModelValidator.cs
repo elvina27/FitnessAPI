@@ -21,7 +21,7 @@ namespace Fitness.Services.Validator.Validators
                 .Length(3, 100).WithMessage(MessageForValidation.LengthMessage);
 
             RuleFor(x => x.Metro)
-                .Length(2, 50).WithMessage(MessageForValidation.LengthMessage);
+                .Length(2, 30).WithMessage(MessageForValidation.LengthMessage);
 
             RuleFor(x => x.Address)
                 .NotEmpty().WithMessage(MessageForValidation.DefaultMessage)

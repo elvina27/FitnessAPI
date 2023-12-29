@@ -40,6 +40,6 @@ namespace Fitness.Context.Contracts.Models
         /// <summary>
         /// Делаем связь один ко многим
         /// </summary>
-        public Coach Coach { get; set; }
+        public Coach? Coach { get; set; }
     }
 }
