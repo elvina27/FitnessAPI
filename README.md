@@ -107,6 +107,10 @@
         <<Abstract>>        
     }
 ```
+# Пример реального бизнес сценария
+![image](https://github.com/elvina27/FitnessAPI/assets/106970196/bc186367-cf73-4555-a4f5-fa6ee8981b13)
+
+
 # SQL скрипт
 
 ```
