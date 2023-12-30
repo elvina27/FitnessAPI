@@ -10,9 +10,10 @@ builder.Services.RegistrationControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.RegistrationSwagger();
+builder.Services.RegistrationSRC();
 builder.Services.AddDbContextFactory<FitnessContext>(options
     => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Scoped);
-builder.Services.RegistrationSRC();
+
 
 /*var conString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContextFactory<FitnessContext>(options => options.UseSqlServer(conString), ServiceLifetime.Scoped);*/

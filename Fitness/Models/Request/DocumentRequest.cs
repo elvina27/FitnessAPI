@@ -1,11 +1,12 @@
-﻿using Fitnes.API.Models.Response;
+﻿using Fitnes.API.Models.CreateRequest;
+using Fitnes.API.Models.Response;
 
 namespace Fitness.API.Models.Request
 {
     /// <summary>
     ///  Модель запроса создания документа
     /// </summary>
-    public class DocumentRequest : DocumentResponse
+    public class DocumentRequest : CreateDocumentRequest
     {
         /// <summary>
         /// Идентификатор

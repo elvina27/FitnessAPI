@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Services.Tests", ".
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.API.Tests", "..\Fitness.API.Tests\Fitness.API.Tests.csproj", "{29537AF4-0933-4676-B28B-9D1C4924B0C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fitness.Tests.Extensions", "..\Fitness.Tests.Extensions\Fitness.Tests.Extensions.csproj", "{53460CF5-0568-435C-8F1D-149CF3DA4B47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fitness.Tests.Extensions", "..\Fitness.Tests.Extensions\Fitness.Tests.Extensions.csproj", "{53460CF5-0568-435C-8F1D-149CF3DA4B47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

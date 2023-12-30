@@ -10,6 +10,7 @@ C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Services.Tests.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\AutoMapper.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\AutoMapper.Extensions.EnumMapping.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Azure.Core.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Azure.Identity.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Castle.Core.dll
@@ -160,9 +161,11 @@ C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Repositories.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Services.Contracts.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Services.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Tests.Extensions.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Context.Tests.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Repositories.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Services.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Tests.Extensions.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Common.Entity.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Context.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Context.Contracts.pdb
@@ -181,5 +184,3 @@ C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\obj
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\obj\Debug\net6.0\Fitness.Services.Tests.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\obj\Debug\net6.0\Fitness.Services.Tests.genruntimeconfig.cache
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\obj\Debug\net6.0\ref\Fitness.Services.Tests.dll
-C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Tests.Extensions.dll
-C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Service.Tests\bin\Debug\net6.0\Fitness.Tests.Extensions.pdb

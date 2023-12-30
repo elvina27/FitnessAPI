@@ -1,5 +1,7 @@
-﻿using Fitness.API.Models.Response;
+﻿using Fitness.API.Models.CreateRequest;
+using Fitness.API.Models.Response;
 using Fitness.API.Tests.Infrastructures;
+using Fitness.Context.Contracts.Models;
 using Fitness.Tests.Extensions;
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
@@ -87,7 +89,7 @@ namespace Fitness.API.Tests.Tests
         {
             // Arrange
             var client = factory.CreateClient();
-            var сlub = TestDataGenerator.Club();
+            var сlub = mapper.Map<CreateClubRequest>(TestDataGenerator.ClubModel());
 
             // Act
             string data = JsonConvert.SerializeObject(сlub);

@@ -5,10 +5,12 @@ C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debu
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Context.Contracts.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.General.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Repositories.Contracts.dll
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Repositories.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Services.Contracts.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Context.Contracts.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.General.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Repositories.Contracts.pdb
+C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Repositories.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Services.Contracts.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Common.Entity.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\obj\Debug\net6.0\Fitness.Services.csproj.AssemblyReference.cache
@@ -21,5 +23,3 @@ C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\obj\Debu
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\obj\Debug\net6.0\refint\Fitness.Services.dll
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\obj\Debug\net6.0\Fitness.Services.pdb
 C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\obj\Debug\net6.0\ref\Fitness.Services.dll
-C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Repositories.dll
-C:\Эльвина\4 курс\FitnessProject\FitnessAPI\Fitness.Services\bin\Debug\net6.0\Fitness.Repositories.pdb

@@ -1,5 +1,6 @@
 ﻿using Fitness.General;
 using Fitness.Services.Anchors;
+using Fitness.Services.AutoMappers;
 using Fitness.Services.Validator;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -20,8 +21,9 @@ namespace Fitness.Services
         /// </summary>
         public static void RegistrationService(this IServiceCollection service)
         {           
-            service.RegistrationOnInterface<IServiceAnchor>(ServiceLifetime.Scoped);
+            service.AssemblyInterfaceAssignableTo<IServiceAnchor>(ServiceLifetime.Scoped);
             service.AddTransient<IServiceValidatorService, ServicesValidatorService>();
+            service.RegisterAutoMapperProfile<ServiceMapper>();
         }
     }
 }

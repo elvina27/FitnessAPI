@@ -25,14 +25,14 @@ namespace Fitness.API.Tests
             context = fixture.Context;
             unitOfWork = fixture.UnitOfWork;
 
-            Profile[] profiles = { new APIMappers(), new ServiceMapper() };
+           /* Profile[] profiles = { new APIMappers(), new ServiceMapper() };
 
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.AddProfiles(profiles);
             });
 
-            mapper = config.CreateMapper();
+            mapper = config.CreateMapper();*/
         }
     }
 }

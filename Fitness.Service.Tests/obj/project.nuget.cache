@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lXdEFJb7v2ZJma3UhOOl3C9d9IB7Fmix3x0WNFzkBFONCrX3DdQ7acdl9ltU0DSCzNgkB+pshSGI9hOp0nYewQ==",
+  "dgSpecHash": "CjMZMFB3+fXD8vg3jx/mKY4kmSxRDrRbZrJdRnK9HiZ4h+C38QlyTH1QOoBnVrnWF5rVvp+TRYAjFB09YV71ng==",
   "success": true,
   "projectFilePath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Service.Tests\\Fitness.Services.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pavel\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\automapper.extensions.enummapping\\3.1.0\\automapper.extensions.enummapping.3.1.0.nupkg.sha512",
+    "C:\\Users\\pavel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

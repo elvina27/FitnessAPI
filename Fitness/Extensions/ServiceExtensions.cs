@@ -1,12 +1,13 @@
-﻿using Microsoft.OpenApi.Models;
-using Newtonsoft.Json.Converters;
+﻿using Fitness.Api.AutoMappers;
 using Fitness.Common.Entity;
 using Fitness.Common.Entity.InterfaceDB;
-using Fitness.Context;
-using Fitness.Repositories;
+using Fitness.General;
+using Microsoft.OpenApi.Models;
+using Newtonsoft.Json.Converters;
 using Fitness.Services;
-using Fitness.Services.AutoMappers;
-using Fitness.Api.AutoMappers;
+using Fitness.Repositories;
+using Fitness.Context;
+
 
 namespace Fitness.API.Extensions
 {
@@ -25,7 +26,9 @@ namespace Fitness.API.Extensions
             services.RegistrationService();
             services.RegistrationRepository();
             services.RegistrationContext(); 
-            services.AddAutoMapper(typeof(APIMappers), typeof(ServiceMapper));
+           // services.AddAutoMapper(typeof(APIMappers), typeof(ServiceMapper));
+            services.RegisterAutoMapperProfile<APIMappers>();
+            services.RegisterAutoMapper();
         }
 
         /// <summary>
@@ -38,7 +41,7 @@ namespace Fitness.API.Extensions
             {
                 x.Filters.Add<FitnessExceptionFilter>();
             })
-                .AddNewtonsoftJson(o =>
+                .AddControllersAsServices().AddNewtonsoftJson(o =>
                 {
                     o.SerializerSettings.Converters.Add(new StringEnumConverter
                     {

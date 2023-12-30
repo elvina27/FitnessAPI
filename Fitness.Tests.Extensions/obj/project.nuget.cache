@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "H1WZzm7qZ7zWouflKAO/iSoND9TFx1Sm2dOeo0ijY8dl81k2iVxDx2lkXQcTkc0E95MZdxiy3ee6TXCsdK74Bw==",
+  "dgSpecHash": "uyCnTqOc0xUa3tm1u4Q78/I2fCfWNi1mGigNKEn3vVUkG+E8kH7mCn1DTufZQc/lepdZg6N8AHwQrWBGeQ5F3A==",
   "success": true,
   "projectFilePath": "C:\\Эльвина\\4 курс\\FitnessProject\\FitnessAPI\\Fitness.Tests.Extensions\\Fitness.Tests.Extensions.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pavel\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\pavel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\pavel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\pavel\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0\\microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",

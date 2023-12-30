@@ -19,7 +19,7 @@ namespace Fitness.Repositories
         /// </summary>
         public static void RegistrationRepository(this IServiceCollection service)
         {
-            service.RegistrationOnInterface<IRepositoryAnchor>(ServiceLifetime.Scoped);
+            service.AssemblyInterfaceAssignableTo<IRepositoryAnchor>(ServiceLifetime.Scoped);
         }
     }
 }
